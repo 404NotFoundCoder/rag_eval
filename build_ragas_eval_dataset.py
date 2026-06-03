@@ -1,9 +1,10 @@
+import json
+import os
+
 import pandas as pd
 import requests
-from tqdm import tqdm
-import os
-import json
 from dotenv import load_dotenv
+from tqdm import tqdm
 
 load_dotenv()
 
@@ -16,8 +17,8 @@ API_URL = "https://senpai-40.vercel.app/api/chat"
 
 ACCESS_TOKENS = [
     os.getenv("ACCESS_TOKEN"),
-    "key_2",
-    "key_3",
+    os.getenv("ACCESS_TOKEN_1"),
+    os.getenv("ACCESS_TOKEN_2"),
 ]
 
 INPUT_CSV = "ragas_testset_sa_student_2026-05-22.csv"
