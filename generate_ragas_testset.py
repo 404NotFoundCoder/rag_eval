@@ -30,9 +30,136 @@ load_dotenv()
 
 TAIPEI_TZ = ZoneInfo("Asia/Taipei")
 TODAY_STR = datetime.now(TAIPEI_TZ).strftime("%Y-%m-%d")
+RUN_DATE_STR = datetime.now(TAIPEI_TZ).strftime("%Y%m%d")
 
-DOCS_CACHE_PATH = Path(f"docs_cache_{TODAY_STR}.json")
+RUN_ROOT = Path("eval_ragas_testset")
+DOCS_CACHE_DIR = RUN_ROOT / "docs"
+DOCS_CACHE_FILENAME_PREFIX = "docs_cache_"
+DOCS_CACHE_NOTE_FILENAME = "docs_cache_used.txt"
+DOCS_CACHE_PATH = DOCS_CACHE_DIR / f"{DOCS_CACHE_FILENAME_PREFIX}{TODAY_STR}.json"
 OUTPUT_PATH = f"ragas_testset_sa_student_{TODAY_STR}.csv"
+TESTSET_CSV_FILENAME = "ragas_testset.csv"
+
+
+def get_ragas_run_dir(
+    run_root: str | Path = RUN_ROOT,
+    date_str: str | None = None,
+    version: int | str | None = None,
+    create: bool = True,
+) -> Path:
+    date_folder = date_str or datetime.now(TAIPEI_TZ).strftime("%Y%m%d")
+    date_dir = Path(run_root) / date_folder
+
+    if version is None:
+        existing_versions = []
+        if date_dir.exists():
+            for child in date_dir.iterdir():
+                if child.is_dir() and child.name.startswith("v"):
+                    try:
+                        existing_versions.append(int(child.name[1:]))
+                    except ValueError:
+                        pass
+        version_num = max(existing_versions, default=0) + 1
+        version_folder = f"v{version_num}"
+    elif isinstance(version, int):
+        version_folder = f"v{version}"
+    else:
+        version_folder = version if str(version).startswith("v") else f"v{version}"
+
+    run_dir = date_dir / version_folder
+    if create:
+        print(f"[generate] creating/using run_dir: {run_dir}")
+        run_dir.mkdir(parents=True, exist_ok=True)
+    else:
+        print(f"[generate] resolved run_dir: {run_dir}")
+    return run_dir
+
+
+def normalize_docs_cache_date(date_str: str) -> str:
+    date_value = str(date_str).strip()
+    if len(date_value) == 8 and date_value.isdigit():
+        return f"{date_value[:4]}-{date_value[4:6]}-{date_value[6:]}"
+    return date_value
+
+
+def get_docs_cache_path(
+    docs_cache_root: str | Path = DOCS_CACHE_DIR,
+    docs_cache_date_str: str | None = None,
+) -> Path:
+    cache_date = normalize_docs_cache_date(docs_cache_date_str or TODAY_STR)
+    return Path(docs_cache_root) / f"{DOCS_CACHE_FILENAME_PREFIX}{cache_date}.json"
+
+
+def find_latest_docs_cache_path(
+    docs_cache_root: str | Path = DOCS_CACHE_DIR,
+) -> Path | None:
+    cache_root = Path(docs_cache_root)
+    if not cache_root.exists():
+        return None
+
+    cache_files = sorted(
+        cache_root.glob(f"{DOCS_CACHE_FILENAME_PREFIX}*.json"),
+        key=lambda path: path.name,
+    )
+    if not cache_files:
+        return None
+
+    return cache_files[-1]
+
+
+def resolve_docs_cache_path(
+    docs_cache_path: str | Path | None = None,
+    docs_cache_root: str | Path = DOCS_CACHE_DIR,
+    docs_cache_date_str: str | None = None,
+    refresh_docs_cache: bool = False,
+) -> Path:
+    if docs_cache_path is not None:
+        resolved_path = Path(docs_cache_path)
+        print(f"[generate] using explicit docs_cache_path: {resolved_path}")
+        return resolved_path
+
+    if docs_cache_date_str is not None:
+        resolved_path = get_docs_cache_path(docs_cache_root, docs_cache_date_str)
+        print(f"[generate] using specified docs cache date: {resolved_path}")
+        return resolved_path
+
+    if refresh_docs_cache:
+        resolved_path = get_docs_cache_path(docs_cache_root, TODAY_STR)
+        print(f"[generate] refreshing latest docs cache into: {resolved_path}")
+        return resolved_path
+
+    latest_path = find_latest_docs_cache_path(docs_cache_root)
+    if latest_path is not None:
+        print(f"[generate] using latest docs cache: {latest_path}")
+        return latest_path
+
+    resolved_path = get_docs_cache_path(docs_cache_root, TODAY_STR)
+    print(f"[generate] no docs cache found; will create: {resolved_path}")
+    return resolved_path
+
+
+def write_docs_cache_note(
+    run_dir: str | Path,
+    docs_cache_path: str | Path,
+    refresh_docs_cache: bool = False,
+    docs_cache_date_str: str | None = None,
+) -> Path:
+    note_path = Path(run_dir) / DOCS_CACHE_NOTE_FILENAME
+    cache_path = Path(docs_cache_path)
+    note_path.parent.mkdir(parents=True, exist_ok=True)
+
+    note_lines = [
+        "Ragas generate docs cache note",
+        f"generated_at: {datetime.now(TAIPEI_TZ).isoformat()}",
+        f"docs_cache_path: {cache_path}",
+        f"docs_cache_exists_at_note_time: {cache_path.exists()}",
+        f"docs_cache_date_str: {docs_cache_date_str or 'latest'}",
+        f"refresh_docs_cache: {refresh_docs_cache}",
+    ]
+    note_path.write_text("\n".join(note_lines) + "\n", encoding="utf-8")
+    print(f"[generate] writing docs cache note: {note_path}")
+    return note_path
+
 
 # ─── Firebase 初始化 ─────────────────────────────
 
@@ -112,14 +239,62 @@ def fetch_comments(db, post_id: str) -> list[dict]:
 # ─── 從 Firebase 讀 posts ─────────────────────────────
 
 
+# def fetch_posts_from_firebase() -> list[dict]:
+#     db = init_firebase()
+#     print("📥 讀取 Firebase /posts ...")
+
+#     posts = []
+
+#     for doc in db.collection("posts").stream():
+#         data = doc.to_dict() or {}
+
+#         title = data.get("title", "")
+#         content = data.get("content", "")
+
+#         if not content:
+#             print(f"⚠️ 跳過 {doc.id}（content 空）")
+#             continue
+
+#         raw_comments = fetch_comments(db, doc.id)
+#         comment_str = format_comments_for_rag(raw_comments)
+
+#         posts.append(
+#             {
+#                 "id": doc.id,
+#                 "title": title,
+#                 "content": content,
+#                 "comment": comment_str,
+#             }
+#         )
+
+#     print(f"✅ 共 {len(posts)} 筆文件")
+#     return posts
+from datetime import datetime, timezone
+
+
 def fetch_posts_from_firebase() -> list[dict]:
     db = init_firebase()
     print("📥 讀取 Firebase /posts ...")
 
     posts = []
 
+    # 只要這個時間之後的文章
+    cutoff = datetime(2026, 5, 15, tzinfo=timezone.utc)
+
     for doc in db.collection("posts").stream():
         data = doc.to_dict() or {}
+
+        created_at = data.get("created_at")
+
+        # 沒有 created_at 就先跳過
+        if not created_at:
+            print(f"⚠️ 跳過 {doc.id}（created_at 空）")
+            continue
+
+        # created_at 是 Firestore Timestamp 時，通常可以直接跟 datetime 比
+        if created_at < cutoff:
+            print(f"⏭️ 跳過 {doc.id}（created_at 太早：{created_at}）")
+            continue
 
         title = data.get("title", "")
         content = data.get("content", "")
@@ -137,6 +312,7 @@ def fetch_posts_from_firebase() -> list[dict]:
                 "title": title,
                 "content": content,
                 "comment": comment_str,
+                "created_at": created_at,
             }
         )
 
@@ -174,39 +350,71 @@ def posts_to_langchain_docs(posts: list[dict]) -> list[Document]:
     return docs
 
 
-def save_docs_cache(posts: list[dict]):
-    with open(DOCS_CACHE_PATH, "w", encoding="utf-8") as f:
+def save_docs_cache(posts: list[dict], docs_cache_path: str | Path = DOCS_CACHE_PATH):
+    docs_cache_path = Path(docs_cache_path)
+    print(f"[generate] creating/using docs cache directory: {docs_cache_path.parent}")
+    docs_cache_path.parent.mkdir(parents=True, exist_ok=True)
+    print(f"[generate] writing docs cache: {docs_cache_path}")
+    with open(docs_cache_path, "w", encoding="utf-8") as f:
         json.dump(posts, f, ensure_ascii=False, indent=2, default=str)
-    print(f"💾 快取已儲存：{DOCS_CACHE_PATH}")
+    print(f"💾 快取已儲存：{docs_cache_path}")
 
 
-def load_docs_cache() -> list[dict] | None:
-    if not DOCS_CACHE_PATH.exists():
+def load_docs_cache(docs_cache_path: str | Path = DOCS_CACHE_PATH) -> list[dict] | None:
+    docs_cache_path = Path(docs_cache_path)
+    print(f"[generate] checking docs cache: {docs_cache_path}")
+    if not docs_cache_path.exists():
+        print(
+            f"[generate] docs cache not found, will fetch from Firebase: {docs_cache_path}"
+        )
         return None
-    with open(DOCS_CACHE_PATH, "r", encoding="utf-8") as f:
+    print(f"[generate] reading docs cache: {docs_cache_path}")
+    with open(docs_cache_path, "r", encoding="utf-8") as f:
         posts = json.load(f)
     print(f"✅ 從快取載入，共 {len(posts)} 筆")
     return posts
 
 
-def get_posts() -> list[dict]:
-    cached = load_docs_cache()
-    if cached is not None:
-        return cached
+def get_posts(
+    docs_cache_path: str | Path = DOCS_CACHE_PATH,
+    refresh_docs_cache: bool = False,
+) -> list[dict]:
+    if refresh_docs_cache:
+        print(
+            f"[generate] refresh_docs_cache=True; rebuilding cache: {docs_cache_path}"
+        )
+    else:
+        cached = load_docs_cache(docs_cache_path)
+        if cached is not None:
+            return cached
     print("🔄 快取不存在，從 Firebase 抓取...")
     posts = fetch_posts_from_firebase()
-    save_docs_cache(posts)
+    save_docs_cache(posts, docs_cache_path)
     return posts
 
 
 # ─── Ragas 產生測試集 ─────────────────────────────
 
 
-def generate_ragas_testset(testset_size: int = 50):
+def generate_ragas_testset(
+    testset_size: int = 50,
+    docs_cache_path: str | Path | None = None,
+    docs_cache_root: str | Path = DOCS_CACHE_DIR,
+    docs_cache_date_str: str | None = None,
+    refresh_docs_cache: bool = False,
+):
     if not os.getenv("OPENAI_API_KEY"):
         raise RuntimeError("缺少 OPENAI_API_KEY，請確認 .env 是否已設定")
 
-    posts = get_posts()
+    resolved_docs_cache_path = resolve_docs_cache_path(
+        docs_cache_path=docs_cache_path,
+        docs_cache_root=docs_cache_root,
+        docs_cache_date_str=docs_cache_date_str,
+        refresh_docs_cache=refresh_docs_cache,
+    )
+
+    print(f"[generate] docs_cache_path: {resolved_docs_cache_path}")
+    posts = get_posts(resolved_docs_cache_path, refresh_docs_cache=refresh_docs_cache)
     docs = posts_to_langchain_docs(posts)
 
     print(f"📄 轉換完成，共 {len(docs)} 份 LangChain Documents")
@@ -255,13 +463,84 @@ def generate_ragas_testset(testset_size: int = 50):
     return dataset
 
 
-if __name__ == "__main__":
-    dataset = generate_ragas_testset(testset_size=50)
+def save_ragas_testset(
+    dataset,
+    output_csv: str | Path,
+) -> tuple[object, Path]:
+    output_path = Path(output_csv)
+    print(f"[generate] creating/using output directory: {output_path.parent}")
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
     df = dataset.to_pandas()
-
-    output_path = OUTPUT_PATH
+    print(f"[generate] writing testset CSV: {output_path}")
     df.to_csv(output_path, index=False, encoding="utf-8-sig")
 
-    print(f"✅ 已輸出：{output_path}")
-    print(df.head())
+    print(f"Saved testset: {output_path}")
+    return df, output_path
+
+
+def generate_and_save_ragas_testset(
+    testset_size: int = 50,
+    run_root: str | Path = RUN_ROOT,
+    date_str: str | None = None,
+    version: int | str | None = None,
+    output_filename: str = TESTSET_CSV_FILENAME,
+    docs_cache_path: str | Path | None = None,
+    docs_cache_root: str | Path | None = None,
+    docs_cache_date_str: str | None = None,
+    refresh_docs_cache: bool = False,
+) -> dict:
+    resolved_docs_cache_root = (
+        Path(docs_cache_root)
+        if docs_cache_root is not None
+        else Path(run_root) / "docs"
+    )
+    resolved_docs_cache_path = resolve_docs_cache_path(
+        docs_cache_path=docs_cache_path,
+        docs_cache_root=resolved_docs_cache_root,
+        docs_cache_date_str=docs_cache_date_str,
+        refresh_docs_cache=refresh_docs_cache,
+    )
+
+    print(f"[generate] run_root: {Path(run_root)}")
+    print(
+        f"[generate] date_str: {date_str or datetime.now(TAIPEI_TZ).strftime('%Y%m%d')}"
+    )
+    print(f"[generate] version: {version if version is not None else 'auto next vN'}")
+    print(f"[generate] docs_cache_root: {resolved_docs_cache_root}")
+    print(f"[generate] docs_cache_path: {resolved_docs_cache_path}")
+    run_dir = get_ragas_run_dir(
+        run_root=run_root,
+        date_str=date_str,
+        version=version,
+        create=True,
+    )
+    output_csv = run_dir / output_filename
+    print(f"[generate] target testset CSV: {output_csv}")
+
+    dataset = generate_ragas_testset(
+        testset_size=testset_size,
+        docs_cache_path=resolved_docs_cache_path,
+        refresh_docs_cache=refresh_docs_cache,
+    )
+    docs_cache_note = write_docs_cache_note(
+        run_dir=run_dir,
+        docs_cache_path=resolved_docs_cache_path,
+        refresh_docs_cache=refresh_docs_cache,
+        docs_cache_date_str=docs_cache_date_str,
+    )
+    df, output_path = save_ragas_testset(dataset, output_csv)
+
+    return {
+        "dataset": dataset,
+        "dataframe": df,
+        "run_dir": run_dir,
+        "testset_csv": output_path,
+        "docs_cache_path": resolved_docs_cache_path,
+        "docs_cache_note": docs_cache_note,
+    }
+
+
+if __name__ == "__main__":
+    result = generate_and_save_ragas_testset(testset_size=50)
+    print(result["dataframe"].head())
