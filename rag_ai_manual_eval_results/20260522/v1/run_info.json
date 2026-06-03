@@ -1,0 +1,15 @@
+{
+  "mode": "compare",
+  "main_testset_csv": "ragas_eval_with_response_2026-05-22.csv",
+  "result_root": "rag_ai_manual_eval_results",
+  "sample_size": 10,
+  "random_seed": 42,
+  "model_name": "gpt-4o-mini",
+  "sleep_sec": 0,
+  "score_column": "ai_score",
+  "output_dir": "rag_ai_manual_eval_results\\20260522\\v1",
+  "created_at": "2026-05-22 14:30:57",
+  "compare_input_csv": "rag_ai_manual_eval_results\\20260522\\v1\\ai_scored_10.csv",
+  "compare_csv": "rag_ai_manual_eval_results\\20260522\\v1\\compare_result_10.csv",
+  "compare_metrics_csv": "rag_ai_manual_eval_results\\20260522\\v1\\compare_result_10_metrics.csv"
+}
