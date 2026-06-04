@@ -1,0 +1,11 @@
+{
+  "run_time": "2026-06-04 03:07:42",
+  "target_run_dir": "eval_ragas_testset\\20260604\\v1",
+  "input_csv": "eval_ragas_testset\\20260604\\v1\\ragas_eval_with_response.csv",
+  "question_count": 1,
+  "average_scores": {
+    "faithfulness": 1.0
+  },
+  "output_scores_csv": "eval_ragas_testset\\20260604\\v1\\ragas_scores.csv",
+  "output_summary_md": "eval_ragas_testset\\20260604\\v1\\ragas_summary.md"
+}

@@ -239,62 +239,14 @@ def fetch_comments(db, post_id: str) -> list[dict]:
 # ─── 從 Firebase 讀 posts ─────────────────────────────
 
 
-# def fetch_posts_from_firebase() -> list[dict]:
-#     db = init_firebase()
-#     print("📥 讀取 Firebase /posts ...")
-
-#     posts = []
-
-#     for doc in db.collection("posts").stream():
-#         data = doc.to_dict() or {}
-
-#         title = data.get("title", "")
-#         content = data.get("content", "")
-
-#         if not content:
-#             print(f"⚠️ 跳過 {doc.id}（content 空）")
-#             continue
-
-#         raw_comments = fetch_comments(db, doc.id)
-#         comment_str = format_comments_for_rag(raw_comments)
-
-#         posts.append(
-#             {
-#                 "id": doc.id,
-#                 "title": title,
-#                 "content": content,
-#                 "comment": comment_str,
-#             }
-#         )
-
-#     print(f"✅ 共 {len(posts)} 筆文件")
-#     return posts
-from datetime import datetime, timezone
-
-
 def fetch_posts_from_firebase() -> list[dict]:
     db = init_firebase()
     print("📥 讀取 Firebase /posts ...")
 
     posts = []
 
-    # 只要這個時間之後的文章
-    cutoff = datetime(2026, 5, 15, tzinfo=timezone.utc)
-
     for doc in db.collection("posts").stream():
         data = doc.to_dict() or {}
-
-        created_at = data.get("created_at")
-
-        # 沒有 created_at 就先跳過
-        if not created_at:
-            print(f"⚠️ 跳過 {doc.id}（created_at 空）")
-            continue
-
-        # created_at 是 Firestore Timestamp 時，通常可以直接跟 datetime 比
-        if created_at < cutoff:
-            print(f"⏭️ 跳過 {doc.id}（created_at 太早：{created_at}）")
-            continue
 
         title = data.get("title", "")
         content = data.get("content", "")
@@ -312,7 +264,6 @@ def fetch_posts_from_firebase() -> list[dict]:
                 "title": title,
                 "content": content,
                 "comment": comment_str,
-                "created_at": created_at,
             }
         )
 
@@ -417,7 +368,7 @@ def generate_ragas_testset(
     posts = get_posts(resolved_docs_cache_path, refresh_docs_cache=refresh_docs_cache)
     docs = posts_to_langchain_docs(posts)
 
-    print(f"📄 轉換完成，共 {len(docs)} 份 LangChain Documents")
+    print(f"📄 轉換完成，共 {len(docs)} 份 LangChain Documents&&")
 
     openai_client = openai.OpenAI()
 
@@ -433,13 +384,12 @@ def generate_ragas_testset(
         role_description=(
             "正在修習輔仁大學資管系「系統分析與設計」課程的學生。"
             "這位學生會以真實修課學生的角度詢問"
-            # "所有問題必須使用繁體中文(專有名詞除外)。"
+            "所有問題必須使用繁體中文(專有名詞除外)。"
             "問題要自然、具體、口語化，像學生真的會問的問題。"
-            # "避免過度抽象、避免英文問題、避免中英夾雜。"
-            # "問題必須能從提供的文件內容中找到根據，不要憑空延伸。"
+            "避免過度抽象、避免英文問題、避免中英夾雜。"
+            "問題必須能從提供的文件內容中找到根據，不要憑空延伸。"
         ),
     )
-
     generator = TestsetGenerator(
         llm=generator_llm,
         embedding_model=generator_embeddings,
@@ -451,12 +401,24 @@ def generate_ragas_testset(
         (MultiHopSpecificQuerySynthesizer(llm=generator_llm), 0.6),
     ]
 
-    print(f"⚙️ 開始產生 Ragas testset，共 {testset_size} 筆...")
+    print(f"⚙️ 開始產生 Ragas testset，共 {testset_size} 筆...!!")
+    from ragas.testset.transforms import default_transforms
+    from ragas.testset.transforms.extractors.llm_based import HeadlinesExtractor
+    from ragas.testset.transforms.splitters import HeadlineSplitter
 
+    all_transforms = default_transforms(
+        documents=docs, llm=generator_llm, embedding_model=generator_embeddings
+    )
+    transforms = [
+        t
+        for t in all_transforms
+        if not isinstance(t, (HeadlineSplitter, HeadlinesExtractor))
+    ]
     dataset = generator.generate_with_langchain_docs(
         docs,
         testset_size=testset_size,
         query_distribution=query_distribution,
+        # transforms=transforms,
     )
 
     print("✅ Testset 產生完成")
