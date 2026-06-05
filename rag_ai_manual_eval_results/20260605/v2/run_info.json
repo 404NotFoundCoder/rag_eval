@@ -1,0 +1,11 @@
+{
+  "mode": "ai",
+  "main_eval_csv": "eval_ragas_testset\\20260604\\v2\\ragas_eval_with_response.csv",
+  "sample_size": 50,
+  "random_seed": 42,
+  "model_name": "gpt-4o-mini",
+  "output_dir": "rag_ai_manual_eval_results\\20260605\\v2",
+  "created_at": "2026-06-05 00:18:27",
+  "sample_csv": "rag_ai_manual_eval_results\\20260605\\v2\\rag_sample_50.csv",
+  "ai_scored_csv": "rag_ai_manual_eval_results\\20260605\\v2\\ai_scored_50.csv"
+}
