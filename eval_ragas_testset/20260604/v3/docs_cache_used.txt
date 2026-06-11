@@ -1,0 +1,6 @@
+Ragas generate docs cache note
+generated_at: 2026-06-04T23:37:35.772321+08:00
+docs_cache_path: eval_ragas_testset\docs\docs_cache_2026-06-03.json
+docs_cache_exists_at_note_time: True
+docs_cache_date_str: latest
+refresh_docs_cache: False

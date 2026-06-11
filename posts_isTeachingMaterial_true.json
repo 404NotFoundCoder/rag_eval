@@ -1,0 +1,376 @@
+[
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-15T05:40:01.048000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "### 分組方式\n- 五位一組，不得超過五位。\n\n### 題目選擇原則\n- 題目須排除過去三年的題目，請依 TronClass 公告為準。\n- 盡量選擇可以找到實際使用者進行訪談的題目。\n- 請根據 SDGs，挑選一個有興趣的 SDG，並從中尋找主題。\n\n### 主題提案報告\n各組需進行主題提案報告，報告時間不超過 5 分鐘。內容須包含：\n\n- 問題陳述\n- 利害關係人分析\n- 需求蒐集方法\n- 競爭者分析\n- 市場定位／利基\n\n### 主題投票與分配\n報告後，各組將投票選出三至四個題目。每組可投三個主題，最高票的三至四個主題為獲選主題，最後由三組或四組使用同一個題目。\n\n為鼓勵創意，提出該主題的組別可優先成為獲選組別，也可選擇棄權。若選擇同一主題的組別超過限制，則由提出主題的組別決定，或以抽籤方式決定。\n\n---\n### 教材來源\n[課程介紹 Notion](https://sites.google.com/im.fju.edu.tw/sa-sd/introduction)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "分組與主題規範",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/191690888?v=4",
+      "id": "sajZP0RhNBeLodOCIw1Z42UBMwo2",
+      "name": "oops.shelly404"
+    },
+    "isDraftFromAI": false,
+    "id": "30SsgkbeUbcC8N9JMtgx"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-25T14:07:22.472000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "第一章的重點是讓各小節彼此連貫，從「問題」延伸到「解決方案」、「系統範圍」、「背景知識」與「系統限制」。常見問題是各段內容彼此脫節，尤其過度依賴生成式 AI 時，更容易出現前後不一致的情況。\n\n## 需求分析與市場探索\n\n需求分析應清楚說明使用者情境、現有問題與市場狀況。\n\n### 問題陳述\n\n不應只簡單列出問題，還要說明：\n\n- 問題對「誰」造成困擾\n- 目前如何解決這個問題\n- 現有解決方案有哪些痛點\n\n### 利害關係人分析\n\n需列出所有與系統相關的人，並說明不同利害關係人對系統的期待差異。\n\n### 需求蒐集方法\n\n需說明需求如何得知，例如：\n\n- 訪談潛在使用者\n- 發放線上問卷\n- 觀察現行作業流程\n- 參考法規或文獻\n\n### 競爭者分析\n\n應找出 2～3 個功能相近的競爭者或替代方案，並分析其優點與缺點。\n\n常見問題：\n\n- 沒有列出主要競爭者\n\n### 市場定位／利基\n\n需綜合前述分析，說明：\n\n- 系統與競爭者有何不同\n- 目標客群是誰\n- 系統的價值主張是什麼\n\n常見問題：\n\n- 缺少目標客群\n- 缺少價值主張\n\n---\n\n## 系統發展目的\n\n系統發展目的應根據「需求分析與市場探索」描述系統的功能性需求，並針對問題陳述中的問題，簡要說明系統如何解決。\n\n也可簡單描述系統的非功能性需求。\n\n常見問題：\n\n- 內容與問題陳述不一致\n- 問題陳述中的問題沒有對應解決方案\n- 發展目的又列出新的問題\n- 忽略非功能性需求\n\n建議整理「問題與解決方案對應表」，檢查每個問題是否都有對應的解決方式。\n\n---\n\n## 系統範圍\n\n系統範圍應根據使用者情境盤點任務，再由任務整理功能性需求。其目的在於讓讀者在閱讀第二章需求規格前，先對系統功能有概略了解。\n\n系統範圍只包含本次要開發的需求；不在此次範圍內的需求，應列入系統限制。\n\n常見問題：\n\n- 內容與系統發展目的相同\n- 未包含應有的基本功能性需求\n- 未完整涵蓋發展目的中的解決方案\n- 將非功能性需求寫入系統範圍\n\n---\n\n## 背景知識\n\n背景知識應詳細描述與系統相關的現有系統、相關系統、競品，以及重要的新概念或新技術。\n\n不需要介紹已屬基本常識的內容，例如 internet、電子商務、Java 等。\n\n常見問題：\n\n- 對競品描述過於簡略\n- 背景知識與發展背景不一致\n- 只盤點基本常識，未盤點競品或重要背景\n\n---\n\n## 系統限制\n\n系統限制應描述「使用者有需求，但本次系統範圍不包含」的內容，並說明：\n\n- 該需求對使用者的重要性\n- 為何本次不納入系統範圍\n\n常見問題：\n\n- 將最重要的系統利基列入限制\n- 未依照現有問題思考系統限制\n- 前面提到的問題沒有提出解決方案，也沒有列入系統限制\n- 前面提出的解決方案沒有列入系統範圍，也沒有列入系統限制\n\n---\n\n## 核心檢查重點\n\n第一章最重要的是「前後一致」。\n\n問題陳述提出的問題，後續應在系統發展目的中提出解決方案；解決方案應進一步反映在系統範圍中；若本次不開發，則應合理列入系統限制。\n\n---\n### 教材來源\n[Documentation](https://sites.google.com/im.fju.edu.tw/sa-sd/documentation)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "文件審查項目及常見問題：第一章系統描述",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/191690888?v=4",
+      "id": "sajZP0RhNBeLodOCIw1Z42UBMwo2",
+      "name": "oops.shelly404"
+    },
+    "isDraftFromAI": false,
+    "id": "3Y855cSAtGRgl1yxUwqK"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-20T06:59:55.758000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "## 簡介\n\nSprint Planning 是每個 Sprint 開始前的重要會議，目的是根據產品目標（Product Goal）決定本次 Sprint 的目標（Sprint Goal），也就是團隊在這個 Sprint 中最優先要解決的問題或提供的解決方案。\n\n確定 Sprint Goal 後，團隊需要盤點相關的 User Story，並評估哪些項目能在一個 Sprint 內完成。選擇 User Story 時，可以依照 MVP 原則思考，優先完成最能產生價值、驗證成果或支撐產品目標的功能。\n\n接著，團隊應根據 User Story 的接受／驗收條件，進一步設計需要的資料庫與畫面，並完成工作分配。工作進度可以透過 GitHub Project 追蹤，程式碼則可利用 Git 進行整合與版本管理。\n\n## 重點\n\n- 根據 Product Goal 決定 Sprint Goal。\n- Sprint Goal 是本次 Sprint 預期完成的目標。\n- 依照 Sprint Goal 盤點 User Story。\n- 選擇能在一個 Sprint 內完成的 User Story。\n- 依 MVP 原則決定優先順序。\n- 根據驗收條件設計資料庫與畫面。\n- 利用 GitHub Project 分配與追蹤工作。\n- 利用 Git 整合程式碼。\n\n---\n## 教材來源\n\n[Sprint Planning](https://sites.google.com/im.fju.edu.tw/sa-sd/methodology/agile)\n[Sprint Planning Start](https://sites.google.com/im.fju.edu.tw/sa-sd/#h.632k8cx3inxa)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "Sprint Planning：設定目標與安排工作",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "yCEGxBJWwWQI0KVvmJ6nrnXj9Dn2",
+      "name": "dis.awezing80"
+    },
+    "isDraftFromAI": false,
+    "id": "5ssJYLBsvPGtx2Ht9oKZ"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-25T14:15:05.113000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "第四章重點在於呈現系統實作後的成果，包含市場測試、使用者回饋、未來展望與分工貢獻。內容應能說明系統是否真的被需要、使用者如何回饋，以及後續可如何改善。\n\n---\n\n## 市場測試\n\n市場測試應說明如何驗證系統實作成果，包含測試規劃與測試結果。\n\n### 測試規劃\n\n需說明以下內容：\n\n- **測試目的**：例如驗證核心功能是否被需要、功能是否符合使用者需求。\n- **測試對象**：需符合設定的目標客群，例如 5 位資管系學生、3 位校外人士。\n- **測試方法**：\n  - **Alpha 測試**：由團隊內部或親友進行測試。\n  - **Beta 測試**：開放給少量真實使用者，在真實環境中使用。\n  - **可用性測試**：請使用者執行特定任務，觀察操作情形與問題。\n\n### 測試結果\n\n應整理測試過程中發現的問題、使用狀況與結果，作為後續分析與改善依據。\n\n---\n\n## 使用者回饋\n\n使用者回饋應說明如何蒐集意見，並整理成可分析、可行動的內容。\n\n### 回饋蒐集方式\n\n可使用測試後訪談、Google 問卷、使用紀錄觀察等方式蒐集回饋。\n\n### 回饋分析\n\n應包含：\n\n- **量化數據分析**：整理問卷分數、滿意度、任務完成率等數據。\n- **質化回饋彙整**：整理使用者的意見、痛點、建議與實際感受。\n- **洞見與行動**：\n  - **洞見**：綜合回饋後，說明從中學到了什麼。\n  - **行動**：針對回饋說明已做了哪些修改或調整。\n\n---\n\n## 未來展望\n\n未來展望是開發後的評估，用來記錄系統未來可改善或延伸的方向。\n\n系統限制是開發前的事先評估；未來展望則是根據實作結果、測試結果與使用者回饋後，提出後續可能的開發方向。\n\n若某些系統限制是因為時間不足而無法完成，也可放入未來展望，作為後續專題或學弟妹延伸開發的參考方向。\n\n---\n\n## 分工貢獻\n\n分工貢獻需紀錄成員在專題中的投入與貢獻。建議紀錄工時，作為下個 Sprint 或未來專題進行人力估算的參考。\n\n老師評分會參考貢獻度百分比，但貢獻度不一定完全依照總工時計算。因為有些同學可能花較少時間但產出重要貢獻，也可能有人花很多時間但實際貢獻有限。\n\n若發現有虛報貢獻度的可能，老師可能會要求進一步驗收，以確認實際貢獻內容。\n\n---\n\n## 核心檢查重點\n\n第四章應確認市場測試、使用者回饋、未來展望與分工貢獻都有具體內容。重點不是只描述「做了什麼」，而是要說明「如何驗證成果」、「使用者回饋帶來什麼洞見」，以及「根據回饋做了哪些改善」。\n\n---\n### 教材來源\n[Documentation](https://sites.google.com/im.fju.edu.tw/sa-sd/documentation)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "文件審查項目及常見問題：第四章系統專題實作成果",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/191690888?v=4",
+      "id": "sajZP0RhNBeLodOCIw1Z42UBMwo2",
+      "name": "oops.shelly404"
+    },
+    "isDraftFromAI": false,
+    "id": "72y30EHstjAvpYnAM2wt"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-20T07:10:04.065000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "## 簡介\n\n軟體品質可以透過驗收條件與測試來確認。團隊應根據 Sprint Goal，利用自動化測試確保最重要的功能已經完成，並進行對應測試。\n\n可以使用 Gen AI 或 GitHub Copilot，依照驗收條件協助撰寫自動化測試腳本，並執行測試，也可以透過 GitHub Copilot Agent Mode 與 GitHub Copilot Skills 協助建立測試流程。\n\n## 測試方式\n\n- 單元測試：使用 Vitest 或 PHPUnit，針對個別功能進行測試。\n- E2E 測試：使用 Playwright，測試完整使用流程。\n- 測試應能個別執行，也應能一起執行且不能發生問題。\n\n## 教材來源\n\n[測試](https://www.notion.so/34104449845d80de8f5cfe75ab6804c3)\n\n[GitHub Copilot Agent Mode](https://www.notion.so/GitHub-Copilot-Agent-Mode-31e04449845d8030a661f869338c394e?pvs=21)\n\n[GitHub Copilot Skills](https://fju-benwu.notion.site/GitHub-Copilot-Skills-33904449845d804cb19fd5689f2efd85)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "軟體品質與測試：用驗收條件確保功能完成",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "yCEGxBJWwWQI0KVvmJ6nrnXj9Dn2",
+      "name": "dis.awezing80"
+    },
+    "isDraftFromAI": false,
+    "id": "B7f1SwZDiNoVpjbil0hx"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-20T07:15:53.096000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "## 簡介\n\nSprint 3 的重點是進行系統驗收，確認系統功能、資料庫與文件內容是否一致。各組需於驗收前將文件繳交至 TronClass，遲交者將依遲交情況酌予扣分。\n\n驗收時會檢查系統功能是否完成、資料庫是否符合需求，以及文件內容是否能正確對應系統成果。若系統功能、資料庫與文件不相符，將視情況酌予扣分。\n\n## 功能評分標準\n\n- **功能創新性（20%）**：解法是否聰明，是否用不同方式解決痛點，或巧妙運用工具產生系統亮點。\n- **功能實用性（50%）**：痛點是否真的被解決，系統是否對應 User Story，真實使用者是否會想使用。\n- **系統技術性（10%）**：防呆與架構是否穩定，實機測試是否順暢且無錯誤。\n- **介面親和性（10%）**：操作動線是否直覺，使用者能否快速完成核心任務。\n- **內容豐富性（10%）**：系統完成度與真實感是否足夠，測試資料與資料庫關聯是否完整。\n\n## 驗收標準\n\n- 若系統未完成整合，一律不驗收。\n- 若系統仍有語法錯誤或無法執行，一律不驗收。\n- 未於規定時間內完成驗收者，將視情況酌予扣分。\n- 驗收最後期限為 **6/19 16:00**。\n\n## 補救說明\n\n總成績可能不及格的同學，請提前繳交自主學習作業。學期總成績滿 50 分但未達 60 分者，可透過補救作業進行補救。老師會依分數差距安排不同程度的補救作業，例如修改文件或完成指定功能。\n\n補救作業完成期限為 **6/19 16:00**。\n\n## 教材來源\n[Sprint 3：Sprint Review 1](https://sites.google.com/im.fju.edu.tw/sa-sd/#h.wqsc6yfpwv99)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "Sprint 3驗收程序：系統功能、文件與成果確認",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "yCEGxBJWwWQI0KVvmJ6nrnXj9Dn2",
+      "name": "dis.awezing80"
+    },
+    "isDraftFromAI": false,
+    "id": "DidGeu71jC5NRUFbTmjk"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-20T06:41:00.033000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "## 簡介\n\nAI增強開發工具已不只是用來產生程式碼，也能應用在使用者經驗設計、系統分析與設計，以及敏捷式軟體開發等課程中。由於工具選擇很多，教材主要以較適合教學使用、且提供教育優惠的 Figma 與 GitHub Copilot 為主。\n\n目前這類工具的發展重點，已從單純的一問一答，轉向更完整的開發流程支援。透過 agent，AI 可以協助安裝套件、讀取既有程式、撰寫與執行計畫、測試、重整程式碼，甚至發佈系統。開發過程也逐漸改以規格檔案管理脈絡，讓 AI 能依照 instruction 或 spec 執行任務。此外，透過 MCP 連結外部系統後，AI 也能與資料庫等服務整合，進一步支援系統開發。\n\n因此，AI增強開發工具的意義不只是提升寫程式的效率，而是讓開發者從「碼農」回到更核心的角色：理解問題，並提出合適的解決方案。\n\n## 資源\n\n### SA舉手系統教材\n\n[GitHub Copilot心得分享](https://www.notion.so/GitHub-Copilot-baddb2ef4d934973b9e91e139187f8c4?pvs=21)\n\n[GitHub Copilot設定](https://www.notion.so/GitHub-Copilot-30f04449845d80d785a5dc677d9a8b09?pvs=21)\n\n[GitHub Copilot 基本使用](https://www.notion.so/GitHub-Copilot-31704449845d80209832f45b05294f20?pvs=21)\n\n[GitHub Copilot Agent Mode](https://www.notion.so/GitHub-Copilot-Agent-Mode-31e04449845d8030a661f869338c394e?pvs=21)\n\n[GitHub Copilot客製化](https://www.notion.so/GitHub-Copilot-32404449845d80759526d83aee58d30d?pvs=21)\n\n[持續性整合與部署](https://www.notion.so/32204449845d80069aa4e86a25ca5c2c?pvs=21)\n\n[Sprint 1實作](https://www.notion.so/Sprint-1-32504449845d8077802fd7eb51874058?pvs=21)\n\n[利用GitHub Project追蹤進度](https://www.notion.so/GitHub-Project-33404449845d80ad8935f73cf631f3dd?pvs=21)\n\n[Sprint 2實作](https://www.notion.so/Sprint-2-32b04449845d806db32dc28b9d5e3729?pvs=21)\n\n### 敏捷式軟體開發體驗教材\n\n[體驗GitHub Copilot](https://fju-benwu.notion.site/GitHub-Copilot-32a04449845d8012a59ac36420800693)\n\n[體驗Git+GitHub Copilot](https://fju-benwu.notion.site/Git-GitHub-Copilot-32f04449845d80a48a04c6ae3db07fe7)\n\n[GitHub Copilot Skills](https://fju-benwu.notion.site/GitHub-Copilot-Skills-33904449845d804cb19fd5689f2efd85)\n\n[測試](https://fju-benwu.notion.site/34104449845d80de8f5cfe75ab6804c3)\n\n[程式碼重整](https://fju-benwu.notion.site/34a04449845d8066aa54c093d414b021)\n\n[Sprint 3實作](https://fju-benwu.notion.site/Sprint-3-34e04449845d804c9c23c97fa3083c5c)\n\n-----\n### 教材來源\n\n[AI增強開發工具](https://fju-benwu.notion.site/AI-30f04449845d808babd6e89811543c63)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "AI 增強開發工具在系統分析與設計課程中的應用",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "yCEGxBJWwWQI0KVvmJ6nrnXj9Dn2",
+      "name": "dis.awezing80"
+    },
+    "isDraftFromAI": false,
+    "id": "E8weJhzYWL9ucDR2mu8J"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-20T07:07:57.021000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "## 簡介\n\nDaily Scrum 的重點不只是進度報告，而是協助團隊發現並解決進度上的問題。會議中應討論需求上的疑惑、目前遇到的困難，以及可以採取的解決方法，而不是互相指責。\n\n每次 Daily Scrum 都應記錄遇到的問題與對應的解決方案，並檢查是否需要調整工作優先順序或重新分配工作。\n\n## Daily Scrum重點\n\n- 討論進度上的問題，而不只是報告進度。\n- 釐清需求上的疑惑。\n- 討論解決方法，避免指責。\n- 記錄遇到的問題與解決方案。\n- 評估是否需要調整優先順序或工作分配。",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "Daily Scrum：聚焦問題解決與進度調整，讓團隊持續對齊",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "yCEGxBJWwWQI0KVvmJ6nrnXj9Dn2",
+      "name": "dis.awezing80"
+    },
+    "isDraftFromAI": false,
+    "id": "EHami2ztcICWG9zgnU2m"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-20T07:15:19.460000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "## 簡介\n\nSprint Review 1、2 是用來檢視各組在 Sprint 期間完成的成果。各組需於報告前將文件繳交至 TronClass，遲交者將依遲交情況酌予扣分。\n\n報告時，由報告組上台展示成果，其他組別需針對非本組的組別進行評分。報告組也需回應老師與各組的發問，並將問題、建議與後續處理方式整理成 Sprint Review 報告。\n\n## 評分項目\n\n- **功能創新性（20%）**：解法是否聰明，是否用不同方式解決痛點，或巧妙運用工具產生系統亮點。\n- **功能實用性（50%）**：痛點是否真的被解決，MVP 是否對應 User Story，真實使用者是否會想使用。\n- **系統技術性（10%）**：防呆與架構是否穩定，實機 Demo 是否順暢且無錯誤。\n- **介面親和性（10%）**：操作動線是否直覺，使用者能否快速完成核心任務。\n- **內容豐富性（10%）**：MVP 完成度與真實感是否足夠，測試資料與資料庫關聯是否完整。\n\n## Sprint Retrospective\n\n分組驗收後，團隊需檢討：\n\n- 造成成果與目標落差的原因。\n- 後續應調整的作法。\n- 團隊合作方式是否需要調整。\n- 開發方式是否需要調整。\n\n如有需要，老師可以協助討論解決方法。\n\n## Sprint進度報告\n\n組長需於報告當天 **23:59 前** 上傳 Sprint 進度報告至 TronClass。\n\n進度報告內容包含：\n\n- Sprint Planning\n  - Sprint goal\n- Daily Scrum 摘要\n  - 開了幾次\n  - 遇到的問題\n  - 解決的方法\n- Sprint Review\n  - 整理大家的建議\n  - 說明對應的處理方式\n- Sprint Retrospective\n  - 團隊合作方式與開發方式應如何調整\n- 下個 Sprint 的 Sprint Planning\n  - 下個 Sprint goal\n  - 下個 Sprint 的 User Story\n\n## 教材來源\n\n[Sprint 1：Sprint Review 1](https://sites.google.com/im.fju.edu.tw/sa-sd/#h.adz336yitb38)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "Sprint Review 1、2：成果報告、同儕評分與進度整理",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "yCEGxBJWwWQI0KVvmJ6nrnXj9Dn2",
+      "name": "dis.awezing80"
+    },
+    "isDraftFromAI": false,
+    "id": "FgqE6pYfCSFUb4FUPMhG"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-25T14:02:19.027000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "開發團隊會利用文件記錄使用者需求與系統設計，並在開發前先透過文件整理形成共識，再進行系統開發。\n敏捷開發會在Sprint 中會先確認 User Story、所需邏輯與資料，再調整資料庫設計與介面設計，最後依據文件內容進行開發。\n\n---\n\n## 文件章節關聯\n\n文件各章節彼此相關，整體由「問題與需求」逐步延伸到「需求規格」、「設計規格」與「實作成果」。\n\n### 第一章：系統描述\n\n第一章主要讓讀者快速了解使用者情境、問題與解決方案。\n\n- **需求分析與市場探索**：描述使用者情境與問題。\n  - **問題陳述**：定義要解決的問題、受影響對象、現有解法與痛點。\n  - **利害關係人分析**：列出系統相關人員，並分析不同角色的期待。\n  - **需求蒐集方法**：說明需求來源，例如訪談、問卷、觀察、法規或文獻。\n  - **競爭者分析**：分析 2～3 個相近競品或替代方案的優缺點。\n  - **市場定位／利基**：說明系統差異、目標客群與價值主張。\n\n- **發展目的**：簡述主要功能性需求，說明如何解決問題，並補充非功能性需求。\n- **系統範圍**：進一步說明功能性需求。\n- **發展背景**：描述相關系統、競品與重要背景技術知識。\n- **系統限制**：說明目前無法滿足的需求與原因。\n\n### 第二章：軟體需求規格\n\n第二章透過 User Story 進一步描述系統需求。\n\n- **功能需求**：以 User Story 格式描述系統範圍中的解決方案。\n- **使用者角色說明**：說明有哪些使用者與主要情境。\n- **使用者故事對應**：描述 User Story 之間的邏輯結構與優先順序。\n- **使用者故事卡**：描述使用者、需求與價值，並以接受條件說明邏輯細節及所需輸入、輸出資料。\n\n### 第三章：軟體設計規格\n\n第三章說明系統設計內容。\n\n- **資料庫設計**：描述所需的資料庫設計。\n- **介面設計**：描述畫面設計。\n\n### 第四章：系統專題實作成果\n\n第四章說明系統實作後的成果與評估。\n\n- **市場測試**：描述如何驗證實作成果與測試結果。\n- **使用者回饋**：描述如何收集使用者回饋，並整理回饋所得的洞見與行動。\n- **未來展望**：紀錄未來可能的開發方向。\n\n> 系統限制是開發前的事先評估；未來展望則是開發後的評估。\n---\n### 教材來源\n[Dcoumentation](https://sites.google.com/im.fju.edu.tw/sa-sd/documentation)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "文件結構說明",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/191690888?v=4",
+      "id": "sajZP0RhNBeLodOCIw1Z42UBMwo2",
+      "name": "oops.shelly404"
+    },
+    "isDraftFromAI": false,
+    "id": "M1oaRHFNVKPaEsjadnHW"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-20T06:47:36.745000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "## 簡介\n\nUser Story 是以使用者的角度與語言描述需求，通常用簡單的敘述說明使用者是誰、想完成什麼事，以及這個功能能帶來什麼價值。常見格式為：\n\n> As a 使用者角色  \n> I want 具體功能需求  \n> So that 使用者想解決的問題或獲得的價值  \n\n例如：「我是個店員，我希望能看到還沒有出貨的消費者訂單，而且訂單最好是依照下單的先後排序，這樣子我才不會漏掉任何訂單。」\n\nUser Story 必須排定優先順序，通常會採用 MVP 原則，也就是「成功達到想要成果的最小產品釋出」。如果還不確定產品是否會成功，也可以將 MVP 視為「能夠用來證實假設的最小產品釋出」。\n\n撰寫 User Story 時，應注意角色是否清楚、需求是否從使用者角度出發，以及 `I want` 和 `So that` 是否正確區分。`I want` 應描述具體的系統功能需求，`So that` 則應說明這個功能為使用者帶來的價值，而不是重複功能本身。\n\n此外，User Story 不等於畫面設計，而是功能需求的盤點。同一個功能需求通常只會出現一次。若 User Story 太複雜，應切割成多個 Story；若切得太細，導致每一部分無法獨立產生價值，則應合併。例如，註冊與忘記密碼可以分成兩個 User Story，但登入功能不應拆成輸入帳號與輸入密碼兩個 Story。\n\nUser Story 也應搭配接受／驗收條件，明確說明功能完成後應符合哪些條件，以及需要呈現或處理哪些資料。接受條件應描述需求是否被滿足，而不是開發步驟。像「完成介面設計」或「完成資料庫設計」較接近 Definition of Done，而不是驗收條件。\n\n## 常見問題重點\n\n- 不同使用者的 User Story 不一定相同，應先釐清不同角色的目的與需求。\n- 若不同角色的目的與功能需求完全相同，則不一定需要分開撰寫。\n- Epic 不應被當成畫面區隔，而是用來整理多個 User Story 之間的關係。\n- User Story 應從使用者角度撰寫，而不是從開發者角度思考。\n- `I want` 是具體功能需求，`So that` 是使用者價值。\n- 接受／驗收條件應列出需求細節與必要資料，避免開發後才發現欄位遺漏。\n- 接受條件不是開發步驟，開發步驟通常屬於 Definition of Done。\n\n## 教材來源\n\n[User Story](https://sites.google.com/im.fju.edu.tw/sa-sd/requirement/user-story)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "User Story撰寫原則與常見問題",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "yCEGxBJWwWQI0KVvmJ6nrnXj9Dn2",
+      "name": "dis.awezing80"
+    },
+    "isDraftFromAI": false,
+    "id": "N20QM5DVj9RMhQMzr5lI"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-15T06:18:02.656000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "以下是本學期之課程進度規劃\n## 3 月\n\n### 第二週｜03/03\n- 課程介紹、分組\n\n### 第三週｜03/10\n- 確認問題、持續蒐集需求\n\n### 第四週｜03/17\n- 需求分析 & User Story 1\n\n### 第五週｜03/24\n- User Story 2\n\n### 第六週｜03/31\n- Sprint 1：Sprint Planning\n\n---\n\n## 4 月\n\n### 第七週｜04/07\n- 資料庫、使用者介面\n- 春假不上課，自主學習\n\n### 第八週｜04/14\n- 測試 1\n\n### 第九週｜04/21\n- Sprint 1：Sprint Review 1\n\n### 第十週｜04/28\n- Sprint 1：Sprint Review 2\n\n---\n\n## 5 月\n\n### 第十一週｜05/05\n- 測試 2\n\n### 第十二週｜05/12\n- Sprint 2：Sprint Review 1（Group A）\n\n### 第十三週｜05/19\n- Sprint 2：Sprint Review 2（Group B）\n\n### 第十四週｜05/26\n- Sprint 2：Sprint Review 3（Group C）\n\n---\n\n## 6 月\n\n### 第十五週｜06/02\n- Sprint 3：Sprint Review 1（Group A）\n\n### 第十六週｜06/09\n- Sprint 3：Sprint Review 2（Group B）\n\n### 第十七週｜06/16\n- Sprint 3：Sprint Review 3（Group C）\n\n### 第十八週｜06/23\n- 自主學習週\n---\n### 教材來源\n[系統分析與設計 Notion](https://sites.google.com/im.fju.edu.tw/sa-sd/)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "課程進度規劃",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/191690888?v=4",
+      "id": "sajZP0RhNBeLodOCIw1Z42UBMwo2",
+      "name": "oops.shelly404"
+    },
+    "isDraftFromAI": false,
+    "id": "RBLjQE8jDfdLOBeGqdIP"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-25T14:13:50.393000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "第三章重點在於說明系統如何設計，包含資料庫設計、介面設計與資源需求。內容應與第二章的 User Story 對應，並能支持系統實作。\n\n---\n\n## 資料庫設計\n\n資料庫設計需明確列出系統使用的資料庫，例如 MySQL、Firestore 等。\n\n### 關聯式資料庫（RDBMS）\n\n若使用關聯式資料庫，應包含：\n\n- **關聯一覽表**：列出資料表編號、資料表名稱與說明。\n- **關聯結構**：列出資料表編號、資料表名稱、欄位編號、欄位名稱、型態、長度與說明。\n- 資料表與欄位名稱應有統一命名規則。\n- 應正確標示 Primary Key（PK）與 Foreign Key（FK）。\n- FK 應標示對應的資料表與欄位。\n- 欄位型態與長度需合理。\n- 資料表應符合適當的正規化設計，例如第三正規化；若未正規化，需說明原因。\n- 資料表之間不可有不合理關聯，例如不必要的一對一或多對多關聯。\n- 關聯一覽表、關聯結構需與實際資料表一致。\n\n### NoSQL 資料庫\n\n若使用 NoSQL，應清楚說明資料結構，包括：\n\n- 有哪些物件或集合\n- 每種物件的資料欄位\n- 各物件之間的關係\n- 可使用 JSON 範例輔助說明\n\n---\n\n## 介面設計\n\n介面設計需說明系統畫面與 User Story 的對應關係，確保沒有遺漏需求。\n\n### 應包含內容\n\n- 介面藍圖一覽表中的介面應與 User Story 一致。\n- 每個介面藍圖應清楚說明畫面元件對應的動作。\n- 應標示元件操作後會連到哪個介面藍圖。\n- 若畫面流程複雜，可使用狀態圖說明介面之間的關係。\n\n### 常見問題\n\n- 只畫畫面，沒有說明元件對應動作。\n- 沒有標示相關畫面編號，例如導覽列選項會連到哪個畫面、登入後會進入哪個畫面。\n- 畫面流程不完整，遺漏畫面之間的關係。\n- 介面編號誤用 User Story 編號；介面說明應使用介面藍圖一覽表中的畫面編號。\n- 把同一個 User Story 的不同畫面放在一起。\n- 把同一畫面的不同狀態放在一起。\n- 不同畫面使用同一個編號。\n- 同一畫面因截圖太長而拆成多個編號。\n\n原則上，每個介面藍圖都應獨立呈現；一個畫面使用一個編號。若同一畫面有不同狀態，例如登入前首頁與登入後首頁，應分開繪製並說明兩者關係。\n\n---\n\n## 資源需求\n\n資源需求需估算開發與營運系統所需的人力、軟體、硬體與經費。\n\n### 開發期間資源\n\n應估算開發系統所需資源：\n\n- **人力**：總工時 × 時薪\n- **軟體**：作業系統、資料庫、開發環境、程式語言等\n- **硬體**：網路、伺服器、個人電腦、手機等\n\n### 營運期間資源\n\n應估算系統上線後前三年的營運成本。營運期間所需資源通常不同於開發期間，例如維運人力不一定等於開發人力，也不需要保留所有開發人員。\n\n應包含：\n\n- **人力**：預估工時 × 時薪\n- **軟體**：作業系統、資料庫、開發環境、程式語言等\n- **硬體**：網路、伺服器、個人電腦、手機等\n\n### 常見問題\n\n- 軟硬體成本都寫 0，只列出開發者既有電腦。\n- 未估算上線後所需成本，例如雲端服務 AWS、GCE 或專用伺服器費用。\n- 人力估算過於隨意，沒有說明為何需要這些人力。\n\n---\n\n## 核心檢查重點\n\n第三章應確認資料庫設計、介面設計與資源需求都能對應系統需求。資料庫需支援功能運作，介面需涵蓋所有 User Story，資源需求則需合理估算開發與營運成本。\n\n---\n### 教材來源 \n[Documentation](https://sites.google.com/im.fju.edu.tw/sa-sd/documentation)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "文件審查項目及常見問題：第三章軟體設計規格",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/191690888?v=4",
+      "id": "sajZP0RhNBeLodOCIw1Z42UBMwo2",
+      "name": "oops.shelly404"
+    },
+    "isDraftFromAI": false,
+    "id": "WS8Gil4mpmZgyzD4P5q4"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-15T05:34:45.761000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "## 授課教授介紹\n\n**吳濟聰教授（Ji-Tsung Ben Wu）**\n\n吳濟聰教授為本研究之指導教授，學術背景涵蓋資訊管理與資訊系統領域。其大學畢業於**輔仁大學資訊管理學系**，並於**美國馬里蘭大學**取得資訊系統理學碩士學位，後續於**美國印第安納大學**取得資訊系統工商管理博士學位。\n\n### 學歷背景\n\n- **學士**：輔仁大學資訊管理學系\n- **理學碩士**：美國馬里蘭大學資訊系統\n- **工商管理博士**：美國印第安納大學資訊系統\n\n### 聯絡方式\n\n- **電話**：(02) 2905-3938\n- **信箱**：053792@mail.fju.edu.tw\n- **辦公室位置**：羅耀拉大樓 SL209-1\n-----\n## 助教介紹\n\n本課程／研究亦由助教協助相關事務，包含課程問題回覆、作業協助、系統操作說明與學生需求聯繫等事項。\n\n### 助教聯絡方式\n\n- **助教姓名**：董書妤\n- **信箱**：414346028@m365.fju.edu.tw",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "授課教授與助教資訊",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/191690888?v=4",
+      "id": "sajZP0RhNBeLodOCIw1Z42UBMwo2",
+      "name": "oops.shelly404"
+    },
+    "isDraftFromAI": false,
+    "id": "XeGCysOPEZ7CMBFxby1f"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-20T06:52:57.142000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "## 簡介\n\n驗收條件用來說明 User Story 要如何被滿足，也可以作為測試案例，讓開發者與驗收者確認系統是否符合需求。\n\n常見寫法是 **Given、When、Then**：\n\n- **Given**：前提條件\n- **When**：使用者採取的動作\n- **Then**：可驗證的結果\n\n如果一個 User Story 有不同情況，就可以拆成不同情境來寫。若 Given 需要另一個 User Story 先完成，也代表該功能應該先開發。\n\n## 範例\n\n### 1.1 依類別尋找產品\n\n**角色**：身為購買者  \n**需求**：我想要可以依類別找到產品  \n**價值**：因此我可以線上購買產品  \n\n**接受條件：**\n\n> Given 購買者知道產品所屬類別  \n> When 購買者選擇產品類別  \n> Then 購買者可以看到該類別中的產品名稱與價格\n\n## 常見問題\n\n- 驗收條件應描述功能需求，不是畫面設計。\n- 驗收條件要列出需要的資料，例如產品名稱、價格。\n- 驗收條件要和 User Story 的需求相符。\n- 不要把開發步驟當成驗收條件。\n- 不應省略驗收條件，或寫得太粗略。\n\n---\n## 教材來源\n\n[User Story 2](https://sites.google.com/im.fju.edu.tw/sa-sd/#h.u5xj2vei2en3)\n\n[接受/驗收條件](https://sites.google.com/im.fju.edu.tw/sa-sd/requirement/acceptance-criteria)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "驗收條件：用Given、When、Then確認需求是否完成",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "yCEGxBJWwWQI0KVvmJ6nrnXj9Dn2",
+      "name": "dis.awezing80"
+    },
+    "isDraftFromAI": false,
+    "id": "YLBH5VCLwwyW1yGk5Rkb"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-20T06:56:15.098000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "## 簡介\n\n未來每個 Sprint 都需要整理並上傳相關報告。口頭報告當天 **23:59 前**，由 **Scrum Master** 負責將進度報告上傳到 TronClass。\n\nSprint 報告主要包含 Sprint Planning、Daily Scrum 摘要、Sprint Review 與 Sprint Retrospective，目的是讓團隊清楚記錄目標、分工、問題處理與後續調整。\n\n## 報告內容\n\n### Sprint Planning\n\n- Sprint goal\n- User Story 工作分配\n\n### Daily Scrum摘要\n\n- 開了幾次 Daily Scrum\n- 遇到的問題\n- 解決的方法\n\n### Sprint Review\n\n- 整理大家的建議\n- 說明建議對應的處理方式\n\n### Sprint Retrospective\n\n- 團隊合作方式需要如何調整\n- 開發方式需要如何調整\n- 下個 Sprint 的 Sprint goal\n- 下個 Sprint 的 User Story\n----\n### 教材來源\n[Sprint Planning](https://sites.google.com/im.fju.edu.tw/sa-sd/#h.632k8cx3inxa)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "[作業]Sprint報告與進度追蹤",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "yCEGxBJWwWQI0KVvmJ6nrnXj9Dn2",
+      "name": "dis.awezing80"
+    },
+    "isDraftFromAI": false,
+    "id": "ZAQu3fjVXQ3UDxQpss0b"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-25T14:10:35.125000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "第二章重點在於透過使用者角色、Epic、User Story 與驗收條件，清楚描述系統需求。內容應以使用者觀點出發，並與第一章的系統範圍保持一致。\n\n---\n\n## 使用者角色說明\n\n使用者角色說明應描述系統有哪些使用者，以及各角色的主要使用情境。\n\n### 常見問題\n\n- 與 User Story 中的角色不一致\n- 未清楚說明使用者角色與使用情境\n\n---\n\n## 使用者故事對應\n\n使用者故事對應應從使用者觀點思考 Epic 與 User Story，而不是從開發者角度切分功能。若同一使用者的 User Story 分散在不同 Epic 中，也應清楚標明對應的使用者。\n\n### 常見問題\n\n- 沒有區分 Epic 與 User Story\n- 未思考 User Story 的細節\n- 未安排使用者故事的優先順序\n- 與第一章系統範圍不一致\n- Epic 或 User Story 過度分割\n- Epic 底下只有一、兩個 User Story，應考慮與其他 Epic 合併\n\n---\n\n## 使用者故事卡\n\nUser Story 應清楚描述使用者、需求與價值，並以「I am／I want／So that」呈現。\n\n- **I am**：清楚列出使用者是誰\n- **I want**：清楚描述使用者需求\n- **So that**：說明此需求能解決什麼問題，或提供什麼價值\n\nEpic 與 User Story 的名稱應以「動詞」呈現，避免只用名詞描述功能。\n\n### 常見問題\n\n- 沒有清楚定義使用者\n- 需求與價值內容幾乎相同，未思考真正價值\n- 將需求與價值寫反\n- User Story 名稱不是動詞\n\n### 錯誤示例\n\n> 需求：我想要可以看到註冊的資料  \n> 價值：因此系統可以看到註冊者的會員資訊\n\n這樣的寫法沒有說明「管理者為什麼需要這個功能」，也沒有呈現此功能帶來的實際價值。\n\n---\n\n## 驗收條件\n\n驗收條件用來進一步說明使用者需求，並確認 User Story 是否完成。\n\n### Epic 的驗收條件\n\nEpic 可採列點式驗收條件，重點是說明其下 User Story 之間的關係，例如：\n\n- 彼此獨立，屬於不同情境\n- 彼此依賴，具有先後順序\n\n若 User Story 關係較複雜，也可使用活動圖輔助說明。\n\n常見問題：\n\n- 只列出 User Story，沒有說明彼此關係\n\n### User Story 的驗收條件\n\nUser Story 應採情境式驗收條件，說明完成該 User Story 的條件，重點在於確認輸入與輸出資料，不需要描述介面操作細節。\n\n格式如下：\n\n- **Scenario**：情境\n- **Given**：前提或條件，通常是前置 User Story\n- **When**：使用者採取的動作\n- **Then**：系統給予的結果或回饋\n\n### 常見問題\n\n- 未詳述所需資料，例如只寫「輸入註冊資料」，卻沒有說明帳號、密碼等欄位\n- Given、When、Then 角色混淆\n- Given 寫成使用者動作\n- When 寫成條件\n- Then 寫成使用者動作\n- Scenario 沒有明確規則，例如只寫「無法登入」，卻沒說明判斷條件\n- 在 When 或 Then 中包含其他 User Story，導致無法獨立驗收\n\n---\n\n## Given、When、Then 撰寫原則\n\nGiven 是執行此 User Story 前的前置條件，通常是前一個或幾個 User Story。  \nWhen 與 Then 才是此 User Story 本身的步驟與結果。\n\n不應將其他 User Story 寫在 When 或 Then 中；若需要前置功能，應放在 Given。\n\n### 範例：登入\n\n- **Given** 購買者已經註冊會員\n- **When** 購買者輸入帳號、密碼\n- **Then** 購買者完成登入，呈現已登入狀態\n\n若 Then 包含其他 User Story，通常代表該 User Story 應先完成，或應改由後續 User Story 的 Given 來描述前置條件。\n\n---\n\n## 核心檢查重點\n\n第二章應確認「使用者角色、User Story、驗收條件、系統範圍」彼此一致。  \n每個 User Story 都應清楚說明使用者是誰、需要什麼、為什麼需要，以及如何判斷功能已完成。\n\n---\n### 教材來源 \n[Documentation](https://sites.google.com/im.fju.edu.tw/sa-sd/documentation)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "文件審查項目及常見問題：第二章軟體需求規格",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/191690888?v=4",
+      "id": "sajZP0RhNBeLodOCIw1Z42UBMwo2",
+      "name": "oops.shelly404"
+    },
+    "isDraftFromAI": false,
+    "id": "bfwRVK6osUAieY24kOkM"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-15T05:53:54.551000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "- **學長姐經驗（個人作業）**：5%\n\n- **課堂參與**：5%\n  - 依發言得分及出席率計算\n\n- **文件報告**：40%\n  - **系統描述 & 初步軟體需求規格**：12%\n    - **需求分析與市場探索**：30%\n      - 問題陳述：10%\n      - 利害關係人分析：5%\n      - 需求蒐集方法：5%\n      - 競爭者分析：5%\n      - 市場定位／利基：5%\n    - 發展目的：10%\n    - 系統範圍：10%\n    - 背景知識：20%\n    - 系統限制：10%\n    - 需求規格：20%\n  - **Sprint Review 1**：9%\n    - Sprint 1 軟體需求規格：40%\n      - 相關 user story 的驗收條件\n    - Sprint 1 軟體設計規格：60%\n      - 資料表設計：30%\n      - 畫面設計：30%\n  - **Sprint Review 2**：9%\n    - Sprint 2 軟體需求規格：40%\n      - 相關 user story 的驗收條件\n    - Sprint 2 軟體設計規格：60%\n  - **Final**：10%\n    - Sprint 3 軟體需求規格：30%\n      - 相關 user story 的驗收條件\n    - Sprint 3 軟體設計規格：50%\n    - 第四章系統專題實作成果：20%\n\n- **系統功能**：40%（依組內分工給分）\n  - Sprint Review 1：8%\n  - Sprint Review 2：16%\n  - Final：16%\n\n- **小組分工**：5%\n\n- **個人／學期自主學習及課程心得與建議**：5%\n  - 自主學習心得：3%\n  - 學習心得：1%\n  - 建議：1%\n\n- **Sprint Report 額外加分**：每次 2%\n  - 由 Scrum Master 負責\n    - Sprint Planning\n    - Daily Scrum\n    - Sprint Review\n    - Sprint Retrospective\n    - 分工\n----\n### 教材來源\n[第二週 03/03 課程介紹、分組 Notion](https://sites.google.com/im.fju.edu.tw/sa-sd/#h.lyyedt61m2mf)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "課程評分標準",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/191690888?v=4",
+      "id": "sajZP0RhNBeLodOCIw1Z42UBMwo2",
+      "name": "oops.shelly404"
+    },
+    "isDraftFromAI": false,
+    "id": "jqXdM34WlKPWtT6exAzf"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-20T06:45:17.695000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "## 簡介\n\n需求分析的重點，是將產品目標與使用者需求整理成可以執行、追蹤與開發的工作項目。在敏捷開發中，常透過 **User Story** 與 **User Story Mapping** 來描述需求、拆解功能，並安排開發優先順序。\n\n當需求範圍較大、無法一次完成時，可以先列為 **Epic**，再進一步分解成多個 User Story。相反地，如果需求較小，也可以將幾個相關的 User Story 統整為一個 Epic。Epic 的作用，是說明不同 Story 之間的關係，幫助團隊理解整體需求架構。\n\nUser Story 主要用來描述解決方案與需求，通常會聚焦在三個面向：**Who**、**Why** 與 **What**。也就是釐清誰有這個需求、為什麼需要解決這個問題，以及需要完成什麼功能。透過 Gemini 或 ChatGPT 的協助，可以根據產品目標與需求細節，產生更清楚的 User Story。\n\n在專案管理上，可以利用 GitHub Project 分配工作與追蹤進度，讓每個需求項目都有明確的負責人與狀態。課程中也會透過小專題經驗分享，讓學生了解如何在實際專案中進行需求整理、工作分配與進度控管。\n\n敏捷開發適合用於需求不明確或經常變動的情境。其做法是將需求切割成較小、能快速完成的 User Story，並依照優先順序安排開發。需求細節通常不會一開始全部確認，而是在即將開發前再進一步釐清。團隊可以透過 Scrum 的 Sprint，或 Kanban 的 WIP 限制來控制開發節奏與進度。\n\n## 資源\n\n[在系統分析與設計課程中使用Gemini](https://www.notion.so/31504449845d80b783d5c09075166bbd?pvs=21)\n\n[小專題那些事：deeplink分享](https://www.notion.so/)\n\n---\n## 教材來源\n\n[需求分析 & User Story 1](https://sites.google.com/im.fju.edu.tw/sa-sd/#h.dskburftaavc)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "需求分析到User Story：敏捷開發中的需求拆解與進度管理",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "yCEGxBJWwWQI0KVvmJ6nrnXj9Dn2",
+      "name": "dis.awezing80"
+    },
+    "isDraftFromAI": false,
+    "id": "kWoIYVuC0uhLFoNztnOm"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-15T06:05:03.415000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "「系統分析與設計」課程會需要用到**程式設計**、**創新與設計思考**及**資料庫**的相關概念，請同學自行複習，老師**不會在課堂中重複講授這些基礎內容**。\n\n未來專題或工作中會使用到的工具，不一定都是系上課程曾經教過的，因此**自主學習新工具非常重要**。建議同學善用本課程的機會，主動探索並透過實作累積經驗。\n\n## 我們如何學習？\n\n課程教材已公告於網路上，但教材只是學習的起點。同學應依照自己的需求與進度主動探索，並在實作過程中學習。\n\n本課程強調：\n\n- 主動探索\n- 自主學習\n- 實作中學習\n- 從問題中累積經驗\n\n其中，**Learning by doing（做中學）** 是最好的學習方式。\n\n## 課程核心主題\n\n- **System Analysis and Design**：系統分析與設計\n- **Scrum**：敏捷開發與團隊協作方法\n- **文件撰寫**：未來專題中非常重要的一部分\n\n## 教材與資源\n\n本課程相關教材與資源會放置於以下平台，請同學自行查看並善用。\n\n### Google Site\n\n課程主要教材與補充內容會公告於 Google Site。\n\n- [系統分析與設計課程網站](https://sites.google.com/im.fju.edu.tw/sa-sd/)\n\n### TronClass\n\n課程公告、作業繳交與相關通知，請以 TronClass 上的資訊為準。\n\n- [TronClass 教學平台](http://www.elearn2.fju.edu.tw)\n\n### 學長姐分享 Experience Sharing\n\n學長姐經驗分享可作為修課、分組、主題選擇與專題規劃時的參考。\n\n- [學長姐分享 Deeplink](https://deeplink.tw/#/)\n---\n### 教材來源\n[Intriduction PPT](https://drive.google.com/file/d/1dm_-KjRw5fYzx5ijKFAlfGKo9pI4w7EO/view)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "課程介紹：學習方式與教材資源",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/191690888?v=4",
+      "id": "sajZP0RhNBeLodOCIw1Z42UBMwo2",
+      "name": "oops.shelly404"
+    },
+    "isDraftFromAI": false,
+    "id": "rTjPUFAFOVPCRe3AGyqF"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-15T06:11:54.065000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "- 創新與設計思考\n  - 設計思考\n    - 發現問題階段\n    - 定義問題階段\n    - 發展階段\n      - 雛型系統\n    - 交付階段\n    - 可用性測試\n\n  - 系統分析與設計\n    - 實踐創新與設計思考所提出的解決方案\n      - 分析\n        - [User Story](https://sites.google.com/im.fju.edu.tw/sa-sd/requirement/user-story)\n      - 設計\n        - [驗收條件](https://sites.google.com/im.fju.edu.tw/sa-sd/requirement/acceptance-criteria)\n          - 自動化測試\n        - 程式、[使用者介面](https://sites.google.com/im.fju.edu.tw/sa-sd/user-interface)、[資料庫](https://sites.google.com/im.fju.edu.tw/sa-sd/database)\n---\n### 教材來源\n[課程介紹 Notion](https://sites.google.com/im.fju.edu.tw/sa-sd/introduction)",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "課程介紹：甚麼是系統分析與設計?",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/191690888?v=4",
+      "id": "sajZP0RhNBeLodOCIw1Z42UBMwo2",
+      "name": "oops.shelly404"
+    },
+    "isDraftFromAI": false,
+    "id": "sCPdxNuFyAir1obtz7qF"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-05-20T07:05:49.085000+00:00",
+    "isTeachingMaterial": true,
+    "likes": 0,
+    "content": "## 簡介\n\n驗收組別將由積分決定，並依週次分組完成驗收：\n\n- 第15週完成驗收：Group A\n- 第16週完成驗收：Group B\n- 第17週完成驗收：Group C\n\n## 各班驗收安排\n\n### 二甲\n\n- 第九週：A1-A5\n- 第十週：B1-B5\n\n### 二乙\n\n- 第九週：A1-A6、B1-B2\n- 第十週：B3-B5、C1-C3",
+    "bookmarks": 0,
+    "isTimeSensitive": true,
+    "title": "驗收時程安排",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "yCEGxBJWwWQI0KVvmJ6nrnXj9Dn2",
+      "name": "dis.awezing80"
+    },
+    "isDraftFromAI": false,
+    "id": "zt7Kn0XbsakH0NrLX9w8"
+  }
+]

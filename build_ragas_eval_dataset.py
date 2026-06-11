@@ -9,7 +9,7 @@ from tqdm import tqdm
 
 load_dotenv()
 
-API_URL = "https://senpai-40.vercel.app/api/chat"
+API_URL = "http://localhost:5000/api/chat"
 DEFAULT_INPUT_CSV = "ragas_testset_sa_student_2026-05-22.csv"
 DEFAULT_OUTPUT_CSV = "ragas_eval_with_response.csv"
 RETRY_FAILED_ONLY = False
@@ -74,8 +74,32 @@ def build_ragas_eval_dataset(
     print(f"[build] creating/using output directory: {output_path.parent}")
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    df = pd.read_csv(input_path, encoding="utf-8-sig")
+    df = pd.read_csv(
+        input_path,
+        encoding="utf-8-sig",
+        dtype={
+            "response": "string",
+            "retrieved_contexts": "string",
+            "retrieved_metadata": "string",
+            "sourceTypeDecision": "string",
+            "status": "string",
+        },
+    )
     print(f"[build] loaded rows: {len(df)}")
+
+    string_columns = [
+        "response",
+        "retrieved_contexts",
+        "retrieved_metadata",
+        "sourceTypeDecision",
+        "status",
+    ]
+
+    for col in string_columns:
+        if col not in df.columns:
+            df[col] = ""
+        df[col] = df[col].astype("object")
+    print(df[string_columns].dtypes)
 
     required_columns = ["user_input", "reference"]
     for col in required_columns:
@@ -104,6 +128,7 @@ def build_ragas_eval_dataset(
         retrieved_metadata = []
         status = "fail"
         success = False
+        sourceType_decision = ""
 
         for _ in range(len(tokens)):
             access_token = tokens[current_key_index]
@@ -142,9 +167,11 @@ def build_ragas_eval_dataset(
                     {
                         "source": ref.get("source"),
                         "id": ref.get("id"),
+                        "sourceType": ref.get("sourceType"),
                     }
                     for ref in references
                 ]
+                sourceType_decision = data.get("sourceTypeDecision", "")
 
                 status = "success"
                 success = True
@@ -175,6 +202,7 @@ def build_ragas_eval_dataset(
         df.at[idx, "retrieved_metadata"] = json.dumps(
             retrieved_metadata, ensure_ascii=False
         )
+        df.at[idx, "sourceTypeDecision"] = sourceType_decision
         df.at[idx, "status"] = status
 
     print(f"[build] writing eval CSV: {output_path}")

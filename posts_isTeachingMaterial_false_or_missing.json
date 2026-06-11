@@ -1,0 +1,2100 @@
+[
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.846000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "林芯緹、蘇彥碩",
+      "question_number": "3.i",
+      "answer": "有。其中最大問題是有人不會用。\n建議能儘早學，在大家都還不熟悉 Git 時建議設定 pull requests，讓大家都確定程式碼無誤再進行最後的merge。\n學習使用終端機下指令，包含切換路徑等等。",
+      "question": "使用git 嗎?遇到甚麼問題?",
+      "source": "SA訪問 0306",
+      "docId": "interview_sa_0306_lts_git_issues"
+    },
+    "content": "根據林芯緹、蘇彥碩的經驗\n\n有。其中最大問題是有人不會用。\n建議能儘早學，在大家都還不熟悉 Git 時建議設定 pull requests，讓大家都確定程式碼無誤再進行最後的merge。\n學習使用終端機下指令，包含切換路徑等等。",
+    "bookmarks": 0,
+    "contributors": [
+      "林芯緹",
+      "蘇彥碩"
+    ],
+    "title": "使用git 嗎?遇到甚麼問題? - 林芯緹、蘇彥碩",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "07oMbIid9WVaRcnGPX4Q"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.068000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "蔡易辰",
+      "question_number": "3",
+      "answer": "這堂課有兩個階段,一個是文件、一個是系統實作的 demo,老師都會希望你先寫文件,在開發的時候才會知道跟文件的內容是否一樣,但實作上很難做到這件事。第一是時間不夠,可能某個功能做特別久;再來是可能實作到一半突然想加某個功能,但你文件已經打好了,就會需要花額外的時間修改文件。第二是在寫文件的時候很難寫得很OK,這個問題比較大,這方面在台上報告時,老師有建議要站在使用者的角度設計,而不只是系統開發人員,因為有的使用者在使用時並不覺得好用。",
+      "question": "從系統開發中遇到甚麼問題?如何解決?",
+      "source": "訪問及 Deeplink 分享 第二組",
+      "docId": "interview2_dev_issues_resolution"
+    },
+    "content": "根據蔡易辰的經驗\n\n這堂課有兩個階段,一個是文件、一個是系統實作的 demo,老師都會希望你先寫文件,在開發的時候才會知道跟文件的內容是否一樣,但實作上很難做到這件事。第一是時間不夠,可能某個功能做特別久;再來是可能實作到一半突然想加某個功能,但你文件已經打好了,就會需要花額外的時間修改文件。第二是在寫文件的時候很難寫得很OK,這個問題比較大,這方面在台上報告時,老師有建議要站在使用者的角度設計,而不只是系統開發人員,因為有的使用者在使用時並不覺得好用。",
+    "bookmarks": 0,
+    "contributors": [
+      "蔡易辰"
+    ],
+    "title": "從系統開發中遇到甚麼問題?如何解決? - 蔡易辰",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "18wpK9VDO5RuYemvHIJk"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.692000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳建豐",
+      "question_number": "Q4",
+      "answer": "1. 由於是第一次學到user story這個概念,剛開始非常的陌生,而隨著前幾週課程的進行,跟著老師的腳步去站在使用者的立場思考,便能很好地進入狀況。\n2. 承上述,剛開始對user story這個概念不熟非常正常,因此沒有辦法一次就把user story的表格設定好,跟著課程進度討論,並進行多次調整即可。",
+      "question": "設計解決方案並撰寫使用者故事時遇到甚麼問題?如何解決?",
+      "source": "SA專題---學長訪談 第十二組",
+      "docId": "interview_wjf_user_story"
+    },
+    "content": "根據吳建豐的經驗\n\n1. 由於是第一次學到user story這個概念,剛開始非常的陌生,而隨著前幾週課程的進行,跟著老師的腳步去站在使用者的立場思考,便能很好地進入狀況。\n2. 承上述,剛開始對user story這個概念不熟非常正常,因此沒有辦法一次就把user story的表格設定好,跟著課程進度討論,並進行多次調整即可。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳建豐"
+    ],
+    "title": "設計解決方案並撰寫使用者故事時遇到甚麼問題?如何解決? - 吳建豐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "1dOSN6uJcSl5ih4vfEF6"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:51.706000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "董書妤、周佳欣",
+      "question_number": "3",
+      "answer": "學長姐在製作系統時初次嘗試使用 Firebase 和 React 這兩種語言,因此對操作尚未完全熟悉。在開發記帳功能時遇到了一些問題,導致資料庫的讀取量超過負荷,最終使得資料庫停止運作。出現這樣的問題主要是因為Firebase 的免費版本有讀取量的限制,同時在學長姐撰寫的程式碼中存在錯誤,導致 React 的‘useEffect‘機制在每次讀取後都不斷觸發資料的讀寫操作,進而造成資料庫超載。\n學長姐認為,在開始操作前應更深入了解系統架構,並在發現錯誤時逐一排除以進行除錯。同時,建議使用GitHub建立分支,並在本地端進行測試後再進行整合,以減少錯誤發生的可能性。\n建議:要了解一個新的語言前可以先了解它是如何運作的,了解一些概念後參考他人的文件並進行實作。",
+      "question": "從系統開發中遇到甚麼問題?如何解決?",
+      "source": "資管二乙第一組 訪談內容",
+      "docId": "interview_dev_issues_resolution"
+    },
+    "content": "根據董書妤、周佳欣的經驗\n\n學長姐在製作系統時初次嘗試使用 Firebase 和 React 這兩種語言,因此對操作尚未完全熟悉。在開發記帳功能時遇到了一些問題,導致資料庫的讀取量超過負荷,最終使得資料庫停止運作。出現這樣的問題主要是因為Firebase 的免費版本有讀取量的限制,同時在學長姐撰寫的程式碼中存在錯誤,導致 React 的‘useEffect‘機制在每次讀取後都不斷觸發資料的讀寫操作,進而造成資料庫超載。\n學長姐認為,在開始操作前應更深入了解系統架構,並在發現錯誤時逐一排除以進行除錯。同時,建議使用GitHub建立分支,並在本地端進行測試後再進行整合,以減少錯誤發生的可能性。\n建議:要了解一個新的語言前可以先了解它是如何運作的,了解一些概念後參考他人的文件並進行實作。",
+    "bookmarks": 0,
+    "contributors": [
+      "董書妤",
+      "周佳欣"
+    ],
+    "title": "從系統開發中遇到甚麼問題?如何解決? - 董書妤、周佳欣",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "1jkcjq8BVFeReTLBQr9u"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.097000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "辛語柔",
+      "question_number": "2",
+      "answer": "我們這組沒有遇到甚麼問題,因為我們用的技術是舊的,我們會用舊技術的原因是因為這門課只有一個學期嘛,你如果要學新的東西這樣時間實在太短,而且二下的課其實很重,你們有經濟、統計等等,你們到快要考期中期末考時壓力會暴增,所以如果你們要學新技術的話專題再去學就好了,不然就是只學一個技術,因為有些人是從資料庫到語言全部都學新的,然後他們做出來的系統就沒有很完整,因為他們還要花時間去學這樣。",
+      "question": "從系統開發中遇到甚麼問題?如何解決?",
+      "source": "辛語柔訪談紀錄",
+      "docId": "interview_xyr_sys_dev_issues"
+    },
+    "content": "根據辛語柔的經驗\n\n我們這組沒有遇到甚麼問題,因為我們用的技術是舊的,我們會用舊技術的原因是因為這門課只有一個學期嘛,你如果要學新的東西這樣時間實在太短,而且二下的課其實很重,你們有經濟、統計等等,你們到快要考期中期末考時壓力會暴增,所以如果你們要學新技術的話專題再去學就好了,不然就是只學一個技術,因為有些人是從資料庫到語言全部都學新的,然後他們做出來的系統就沒有很完整,因為他們還要花時間去學這樣。",
+    "bookmarks": 0,
+    "contributors": [
+      "辛語柔"
+    ],
+    "title": "從系統開發中遇到甚麼問題?如何解決? - 辛語柔",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "3bJP8QjDr7yA4zVwejdl"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.540000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "謝承祐",
+      "question_number": "4.3",
+      "answer": "可以利用git追蹤大家的進度,因為每次上傳進度時都可以明確顯示大家做了什麼,甚至可以自行輸入註記。",
+      "question": "如何定期追蹤組員進度?遇到甚麼問題?",
+      "source": "訪問大三、大四學長姐 謝承祐",
+      "docId": "interview_scy_current_sys_dev_progress_tracking"
+    },
+    "content": "根據謝承祐的經驗\n\n可以利用git追蹤大家的進度,因為每次上傳進度時都可以明確顯示大家做了什麼,甚至可以自行輸入註記。",
+    "bookmarks": 0,
+    "contributors": [
+      "謝承祐"
+    ],
+    "title": "如何定期追蹤組員進度?遇到甚麼問題? - 謝承祐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "4BNZ0DSvM0cdYYLdIsxI"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.823000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳建豐",
+      "question_number": "Q8",
+      "answer": "資料庫用firebase,後端用flask,因為使用的語言不是學校教的,所以有些生疏。",
+      "question": "使用哪個語言開發?遇到甚麼問題?",
+      "source": "SA專題---學長訪談 第十二組",
+      "docId": "interview_wjf_language_dev"
+    },
+    "content": "根據吳建豐的經驗\n\n資料庫用firebase,後端用flask,因為使用的語言不是學校教的,所以有些生疏。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳建豐"
+    ],
+    "title": "使用哪個語言開發?遇到甚麼問題? - 吳建豐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "4ZFPriLeSWPo8rJAOroO"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.920000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳建豐",
+      "question_number": "Q11",
+      "answer": "Sa課程對專題的幫助 sa是一學期,專題是上下半年,專題的時間長度比較長,可以做的功能會更多,在專題前提前適應專題的節奏與及如何與其他組員溝通很重要。sa絕對有幫助,比如說寫文件的部分等等,也可以加強組員之間的情感。",
+      "question": "系統分析與設計課程對專題的幫助是?",
+      "source": "SA專題---學長訪談 第十二組",
+      "docId": "interview_wjf_sa_course_help"
+    },
+    "content": "根據吳建豐的經驗\n\nSa課程對專題的幫助 sa是一學期,專題是上下半年,專題的時間長度比較長,可以做的功能會更多,在專題前提前適應專題的節奏與及如何與其他組員溝通很重要。sa絕對有幫助,比如說寫文件的部分等等,也可以加強組員之間的情感。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳建豐"
+    ],
+    "title": "系統分析與設計課程對專題的幫助是? - 吳建豐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "4njJAGdtsQwe7gsbxO5I"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.753000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "彭文暘",
+      "question_number": "7",
+      "answer": "大概就是上面提到的那些。到後期組內有共識後問題就很好解決。",
+      "question": "(到目前為止,)系統開發中遇到甚麼問題?如何解決?",
+      "source": "彭文暘訪談紀錄",
+      "docId": "interview_pwy_sys_dev_current_issues"
+    },
+    "content": "根據彭文暘的經驗\n\n大概就是上面提到的那些。到後期組內有共識後問題就很好解決。",
+    "bookmarks": 0,
+    "contributors": [
+      "彭文暘"
+    ],
+    "title": "(到目前為止,)系統開發中遇到甚麼問題?如何解決? - 彭文暘",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "53leeil0YLV9EhKRj97k"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.100000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "蔡易辰",
+      "question_number": "4",
+      "answer": "有使用 git。問題就是,我們這組除了我,其他人都不太會用,我就只能一個一個教。",
+      "question": "使用 git 嗎?遇到甚麼問題?",
+      "source": "訪問及 Deeplink 分享 第二組",
+      "docId": "interview2_git_usage_initial"
+    },
+    "content": "根據蔡易辰的經驗\n\n有使用 git。問題就是,我們這組除了我,其他人都不太會用,我就只能一個一個教。",
+    "bookmarks": 0,
+    "contributors": [
+      "蔡易辰"
+    ],
+    "title": "使用 git 嗎?遇到甚麼問題? - 蔡易辰",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "7OFWhLA4a6xcDSAduKHd"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.984000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳少宇",
+      "question_number": "1",
+      "answer": "系統分析是第一次有正式的分組然後進行一個很完整的專案開發,從寫文件到成品做出來。所以一開始遇到最大的問題就是沒有寫過這麼完整的東西,主要是技術上會有比較大的困難,至於怎麼解決就是上網多看多學囉,因為應該說學校到目前為止的課程教的東西是遠遠不夠你去完成一個完整的系統的。",
+      "question": "從系統分析與設計課程中遇到甚麼問題?如何解決?",
+      "source": "吳少宇訪談紀錄",
+      "docId": "interview_wsy_q1"
+    },
+    "content": "根據吳少宇的經驗\n\n系統分析是第一次有正式的分組然後進行一個很完整的專案開發,從寫文件到成品做出來。所以一開始遇到最大的問題就是沒有寫過這麼完整的東西,主要是技術上會有比較大的困難,至於怎麼解決就是上網多看多學囉,因為應該說學校到目前為止的課程教的東西是遠遠不夠你去完成一個完整的系統的。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳少宇"
+    ],
+    "title": "從系統分析與設計課程中遇到甚麼問題?如何解決? - 吳少宇",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "7XYUzD6VC4VuOHEC2BcI"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.296000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "蔡易辰",
+      "question_number": "10",
+      "answer": "資料庫一樣是用 MySQL,我們是跟學校租虛擬機,把資料庫架在那裡。語言的部分改用 Unity, Unity 好的地方是它有自己的圖形化介面;遊戲邏輯是用 C#;跟資料庫互動的一樣是 PHP。優缺點的部分我覺得都還好、語言都長一樣。",
+      "question": "使用哪個語言、資料庫開發?跟 SA 所使用的一樣嗎?為何?優缺點是? (專題 context)",
+      "source": "訪問及 Deeplink 分享 第二組",
+      "docId": "interview2_languages_db_project_sa_comparison"
+    },
+    "content": "根據蔡易辰的經驗\n\n資料庫一樣是用 MySQL,我們是跟學校租虛擬機,把資料庫架在那裡。語言的部分改用 Unity, Unity 好的地方是它有自己的圖形化介面;遊戲邏輯是用 C#;跟資料庫互動的一樣是 PHP。優缺點的部分我覺得都還好、語言都長一樣。",
+    "bookmarks": 0,
+    "contributors": [
+      "蔡易辰"
+    ],
+    "title": "使用哪個語言、資料庫開發?跟 SA 所使用的一樣嗎?為何?優缺點是? (專題 context) - 蔡易辰",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "8lArnQKucq9QLpe2ofBN"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:54.138000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳少宇",
+      "question_number": "6",
+      "answer": "我們那時候開會的頻率是一個禮拜就會開一次會,然後開會最重要的是要知道你這次開會的目的是什麼,比如說前一次開會你已經要分配好每個人做哪些事情,所以我們開會最重要的就是看大家有沒有做到我們上禮拜分配好的工作,就是說如果有人沒有辦法趕上那個進度、完成大家分配好給他的工作,我們也不能做什麼,我們只能給他道德上、良心上的譴責,所以當你遇到有人每一個禮拜都在擺爛的時候,最後我們也只能把他的工作發出去給其他人,這樣其他的工作量就是相對的增加,我們唯一能對他做的制裁就是我們期末的時候,有一個那個分工表我們只會給他可能5%到10%。",
+      "question": "如何定期追蹤組員進度?遇到甚麼問題?",
+      "source": "吳少宇訪談紀錄",
+      "docId": "interview_wsy_q6"
+    },
+    "content": "根據吳少宇的經驗\n\n我們那時候開會的頻率是一個禮拜就會開一次會,然後開會最重要的是要知道你這次開會的目的是什麼,比如說前一次開會你已經要分配好每個人做哪些事情,所以我們開會最重要的就是看大家有沒有做到我們上禮拜分配好的工作,就是說如果有人沒有辦法趕上那個進度、完成大家分配好給他的工作,我們也不能做什麼,我們只能給他道德上、良心上的譴責,所以當你遇到有人每一個禮拜都在擺爛的時候,最後我們也只能把他的工作發出去給其他人,這樣其他的工作量就是相對的增加,我們唯一能對他做的制裁就是我們期末的時候,有一個那個分工表我們只會給他可能5%到10%。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳少宇"
+    ],
+    "title": "如何定期追蹤組員進度?遇到甚麼問題? - 吳少宇",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "97V38cFljrz1B2pk0SYC"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.187000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "辛語柔",
+      "question_number": "5",
+      "answer": "專題的部分在技術上也都沒甚麼問題,但心理問題也蠻多的。就是因為大三專題可以做一整年,所以就會開始怠惰,那要解決怠惰的話,像我就是會去換 vscode 的顏色,還有打字特效,所以我現在打程式看了就很爽,我就很有動力打這樣。",
+      "question": "(到目前為止,)專題遇到的最大問題是甚麼?",
+      "source": "辛語柔訪談紀錄",
+      "docId": "interview_xyr_project_biggest_issue"
+    },
+    "content": "根據辛語柔的經驗\n\n專題的部分在技術上也都沒甚麼問題,但心理問題也蠻多的。就是因為大三專題可以做一整年,所以就會開始怠惰,那要解決怠惰的話,像我就是會去換 vscode 的顏色,還有打字特效,所以我現在打程式看了就很爽,我就很有動力打這樣。",
+    "bookmarks": 0,
+    "contributors": [
+      "辛語柔"
+    ],
+    "title": "(到目前為止,)專題遇到的最大問題是甚麼? - 辛語柔",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "AMo1HCVb9uPPMimfMjyX"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.816000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "林芯緹、蘇彥碩",
+      "question_number": "2",
+      "answer": "學長姐共同表示組員需慎選！因為這是一場需要團隊合作的戰爭，要分工合作才能完成整個Project，其中要如何分工、怎麼分工也是組內需溝通協調的關鍵，若發現分工錯了該如何改進也是值得提前溝通的重點。\n在SA這堂課可以檢驗大家適不適合一起當同事，若發現組員真的不適合共事，專題可以再換組且一定要換。\n組員之間要即時溝通，其中文件跟程式開發要同步。在撰寫文件時必須注意內容皆為有做出來的功能，在繳交之前務必再次檢查所有文件。\n學長表示他們當時採取傳統開發的模式，每一個組員的分工過於明確，對於非自己負責之部分都不太清楚，且因為是依功能分工容易卡進度造成一個卡一個(例如:前端卡後端)，雖然最後都有完成，但建議以部分分工，每一個組員從前端到最後的文件每一個環節都要參與。\n要自己去學各種新東西、新程式語言，課內沒有系統性的程式課。\n在SA 沒有遇到太多技術上的問題與困難，而在開發專題時要有新技術、開發模式都是必須要會的東西。在 SA 唯一的困難是想法衝突與考慮的不夠周全，若能與組員即時溝通，相信這些都不是問題。",
+      "question": "從系統分析與設計課程中遇到甚麼問題:",
+      "source": "SA訪問 0306",
+      "docId": "interview_sa_0306_lts_sys_analysis_issues"
+    },
+    "content": "根據林芯緹、蘇彥碩的經驗\n\n學長姐共同表示組員需慎選！因為這是一場需要團隊合作的戰爭，要分工合作才能完成整個Project，其中要如何分工、怎麼分工也是組內需溝通協調的關鍵，若發現分工錯了該如何改進也是值得提前溝通的重點。\n在SA這堂課可以檢驗大家適不適合一起當同事，若發現組員真的不適合共事，專題可以再換組且一定要換。\n組員之間要即時溝通，其中文件跟程式開發要同步。在撰寫文件時必須注意內容皆為有做出來的功能，在繳交之前務必再次檢查所有文件。\n學長表示他們當時採取傳統開發的模式，每一個組員的分工過於明確，對於非自己負責之部分都不太清楚，且因為是依功能分工容易卡進度造成一個卡一個(例如:前端卡後端)，雖然最後都有完成，但建議以部分分工，每一個組員從前端到最後的文件每一個環節都要參與。\n要自己去學各種新東西、新程式語言，課內沒有系統性的程式課。\n在SA 沒有遇到太多技術上的問題與困難，而在開發專題時要有新技術、開發模式都是必須要會的東西。在 SA 唯一的困難是想法衝突與考慮的不夠周全，若能與組員即時溝通，相信這些都不是問題。",
+    "bookmarks": 0,
+    "contributors": [
+      "林芯緹",
+      "蘇彥碩"
+    ],
+    "title": "從系統分析與設計課程中遇到甚麼問題: - 林芯緹、蘇彥碩",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "AYzcwj19QvZFIBn8SHKi"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.597000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "彭文暘",
+      "question_number": "2",
+      "answer": "有時候不清楚使用者到底需要什麼功能。需要定期去調查,組內討論一下哪些功能真的需要,哪些功能又不需要用到。",
+      "question": "從系統開發中遇到甚麼問題?如何解決?",
+      "source": "彭文暘訪談紀錄",
+      "docId": "interview_pwy_sys_dev_issues"
+    },
+    "content": "根據彭文暘的經驗\n\n有時候不清楚使用者到底需要什麼功能。需要定期去調查,組內討論一下哪些功能真的需要,哪些功能又不需要用到。",
+    "bookmarks": 0,
+    "contributors": [
+      "彭文暘"
+    ],
+    "title": "從系統開發中遇到甚麼問題?如何解決? - 彭文暘",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "Ah8aumCAkduMaF9JgUU0"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.412000+00:00",
+    "likes": 1,
+    "originalMetadata": {
+      "interviewee": "朱浩偉",
+      "answer": "最主要是在於整合所有目前所學,以及之前自己製作可能其他各個不同小專案的經驗,必須要很清楚自己現在做的主題,需要用到的語言或是接資料庫的這些程式為何要這樣寫,之後再debug的時候才可以更有效率地找出問題所在。",
+      "question": "從系統開發中遇到什麼問題?如何解決?",
+      "source": "第三組 學長姐訪談",
+      "docId": "interview3_dev_issues_resolution"
+    },
+    "content": "根據朱浩偉的經驗\n\n最主要是在於整合所有目前所學,以及之前自己製作可能其他各個不同小專案的經驗,必須要很清楚自己現在做的主題,需要用到的語言或是接資料庫的這些程式為何要這樣寫,之後再debug的時候才可以更有效率地找出問題所在。",
+    "bookmarks": 0,
+    "contributors": [
+      "朱浩偉"
+    ],
+    "title": "從系統開發中遇到什麼問題?如何解決? - 朱浩偉",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "AjE0PFHkVldFel8i26V6"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.348000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "謝承祐",
+      "question_number": "2.1",
+      "answer": "有使用git,第一次使用很不習慣,常常會忘記合併檔案上去,導致之後檔案衝突,但git是一個很好的協作方式,也是版本控制的好方法。",
+      "question": "使用git嗎?遇到甚麼問題?",
+      "source": "訪問大三、大四學長姐 謝承祐",
+      "docId": "interview_scy_sys_dev_git"
+    },
+    "content": "根據謝承祐的經驗\n\n有使用git,第一次使用很不習慣,常常會忘記合併檔案上去,導致之後檔案衝突,但git是一個很好的協作方式,也是版本控制的好方法。",
+    "bookmarks": 0,
+    "contributors": [
+      "謝承祐"
+    ],
+    "title": "使用git嗎?遇到甚麼問題? - 謝承祐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "BoANZjRMShCGCKpvHFIu"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.600000+00:00",
+    "likes": 1,
+    "originalMetadata": {
+      "interviewee": "吳建豐",
+      "question_number": "Q1",
+      "answer": "因為系上的課程安排是先學python、java再資料庫。你會慢慢覺得系上的東西可能不太夠,系上教的可能不足以解決所有問題,可能需要自己上網查很多東西。",
+      "question": "從系統分析與設計課程中遇到甚麼問題?",
+      "source": "SA專題---學長訪談 第十二組",
+      "docId": "interview_wjf_srsd_issues"
+    },
+    "content": "根據吳建豐的經驗\n\n因為系上的課程安排是先學python、java再資料庫。你會慢慢覺得系上的東西可能不太夠,系上教的可能不足以解決所有問題,可能需要自己上網查很多東西。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳建豐"
+    ],
+    "title": "從系統分析與設計課程中遇到甚麼問題? - 吳建豐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "Bs1YaUJ5NtArab9arCCR"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.796000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳建豐",
+      "question_number": "Q7",
+      "answer": "有使用git,但是當五個人一起做的時候,常常會出現程式碼不兼容等問題,要妥善處理,且建議寫前端時要找模板,所有人用同一個,會比一航一航刻字快,且較不容易出錯。",
+      "question": "小組分工合作可能會遇到甚麼問題?使用git嗎?遇到甚麼問題?",
+      "source": "SA專題---學長訪談 第十二組",
+      "docId": "interview_wjf_teamwork_git"
+    },
+    "content": "根據吳建豐的經驗\n\n有使用git,但是當五個人一起做的時候,常常會出現程式碼不兼容等問題,要妥善處理,且建議寫前端時要找模板,所有人用同一個,會比一航一航刻字快,且較不容易出錯。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳建豐"
+    ],
+    "title": "小組分工合作可能會遇到甚麼問題?使用git嗎?遇到甚麼問題? - 吳建豐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "CUVwAhgf1CZFYdbeh2Vz"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.968000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "林芯緹、蘇彥碩",
+      "question_number": "5",
+      "answer": "組內溝通合作與工作分配，注意分工不要分的太乾脆，偶爾開個debug 大會，並適時關心每一個組員進度。\n有沒有把專案放心上，與組員要有共識，例如:要過就好還是要做的很好。\n若獨立開發就是要確定好自己的目標，而共事就是確認大家的共同目標。",
+      "question": "(到目前為止,)系統開發中遇到甚麼問題?如何解決?",
+      "source": "SA訪問 0306",
+      "docId": "interview_sa_0306_lts_sys_dev_general_issues"
+    },
+    "content": "根據林芯緹、蘇彥碩的經驗\n\n組內溝通合作與工作分配，注意分工不要分的太乾脆，偶爾開個debug 大會，並適時關心每一個組員進度。\n有沒有把專案放心上，與組員要有共識，例如:要過就好還是要做的很好。\n若獨立開發就是要確定好自己的目標，而共事就是確認大家的共同目標。",
+    "bookmarks": 0,
+    "contributors": [
+      "林芯緹",
+      "蘇彥碩"
+    ],
+    "title": "(到目前為止,)系統開發中遇到甚麼問題?如何解決? - 林芯緹、蘇彥碩",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "CWmevHQKI6LLbSICtQY0"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:51.975000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "董書妤、周佳欣",
+      "question_number": "5.3",
+      "answer": "和 SA一樣,學長姐們沒有定期進行進度追蹤,直到開會時才能了解所有人的進展。然而,這樣的做法會增加不確定性,並導致遇到的問題被延遲解決。",
+      "question": "如何定期追蹤組員進度?跟SA一樣嗎?遇到甚麼問題? (專題)",
+      "source": "資管二乙第一組 訪談內容",
+      "docId": "interview_sysdev_progress_tracking_sa_comparison"
+    },
+    "content": "根據董書妤、周佳欣的經驗\n\n和 SA一樣,學長姐們沒有定期進行進度追蹤,直到開會時才能了解所有人的進展。然而,這樣的做法會增加不確定性,並導致遇到的問題被延遲解決。",
+    "bookmarks": 0,
+    "contributors": [
+      "董書妤",
+      "周佳欣"
+    ],
+    "title": "如何定期追蹤組員進度?跟SA一樣嗎?遇到甚麼問題? (專題) - 董書妤、周佳欣",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "CgpU0RmYFS3lg2ug6bBP"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.724000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳建豐",
+      "question_number": "Q5",
+      "answer": "使用的資料庫是firebase。firebase系上沒有教,所以第一次討論的時候那個在建那個表的時候,表的頭是不夠好的,所以程式碼會很難寫,所以後來還重新寫變得比較好一點。(關聯問題) 不要一開始想得太複雜,符合能力是最好。",
+      "question": "使用哪種資料庫?資料庫設計時遇到甚麼問題?如何解決?",
+      "source": "SA專題---學長訪談 第十二組",
+      "docId": "interview_wjf_database_design"
+    },
+    "content": "根據吳建豐的經驗\n\n使用的資料庫是firebase。firebase系上沒有教,所以第一次討論的時候那個在建那個表的時候,表的頭是不夠好的,所以程式碼會很難寫,所以後來還重新寫變得比較好一點。(關聯問題) 不要一開始想得太複雜,符合能力是最好。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳建豐"
+    ],
+    "title": "使用哪種資料庫?資料庫設計時遇到甚麼問題?如何解決? - 吳建豐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "DQK0uOBcN3eLnKbwPQXO"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.008000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "董書妤、周佳欣",
+      "question_number": "6",
+      "answer": "- 要在Git 上建立分支,以便於後續合併。此外,分工應根據自己的系統來劃分,並且分工必須明確且公平。\n- 應確保每個人都清楚自己的任務,而不是假設大家的認知都是一致的。學姐們建議選出一位組長,以確保每個人知曉当前應該執行的任務。\n- 老師注重功能的合理性以及使用者體驗,並且很在意同學們對該作業的態度。",
+      "question": "對各位的建議是?",
+      "source": "資管二乙第一組 訪談內容",
+      "docId": "interview_advice_for_us"
+    },
+    "content": "根據董書妤、周佳欣的經驗\n\n- 要在Git 上建立分支,以便於後續合併。此外,分工應根據自己的系統來劃分,並且分工必須明確且公平。\n- 應確保每個人都清楚自己的任務,而不是假設大家的認知都是一致的。學姐們建議選出一位組長,以確保每個人知曉当前應該執行的任務。\n- 老師注重功能的合理性以及使用者體驗,並且很在意同學們對該作業的態度。",
+    "bookmarks": 0,
+    "contributors": [
+      "董書妤",
+      "周佳欣"
+    ],
+    "title": "對各位的建議是? - 董書妤、周佳欣",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "F0MTNH1eqfTOBPbDaPck"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.936000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "林芯緹、蘇彥碩",
+      "question_number": "4",
+      "answer": "技術/框架: React, 學習門檻: 高, 使用方式: 全面, 前瞻性: 高, 優點: 發展度高, 廣泛應用, 缺點: 學習門檻高, 需要完整掌握.\n技術/框架: Vue, 學習門檻: 低, 使用方式: 部分, 前瞻性: 中, 優點: 易於學習和理解, 有中英文檔可參考學習, 缺點: (未列出).\n技術/框架: Next.js, 學習門檻: 中, 使用方式: 部分, 前瞻性: 高, 優點: 基於React, 發展迅速, 部分使用, 無需全部學習, 缺點: (未列出).\n技術/框架: Firebase, 學習門檻: 低, 使用方式: 部分, 前瞻性: 中, 優點: 提供完整的後端服務, 易於使用, 缺點: 主機環境.\n技術/框架: python, 學習門檻: 中, 使用方式: 選擇性, 前瞻性: 高, 優點: 結構簡潔, 功能豐富, 選擇性導入, 缺點: (未列出).\n技術/框架: MySQL, 學習門檻: 中, 使用方式: 選擇性, 前瞻性: 中, 優點: 廣泛使用, 缺點: 資料量大時需要調整.\n技術/框架: MongoDB, 學習門檻: 低, 使用方式: 部分, 前瞻性: 中, 優點: 語法簡單, 功能完全, 文件好找, 缺點: 不是SQL 寫起來自由, 維護較不易.",
+      "question": "(到目前為止,)使用哪個語言、資料庫開發?為何?優缺點是?",
+      "source": "SA訪問 0306",
+      "docId": "interview_sa_0306_lts_tech_stack_details"
+    },
+    "content": "根據林芯緹、蘇彥碩的經驗\n\n技術/框架: React, 學習門檻: 高, 使用方式: 全面, 前瞻性: 高, 優點: 發展度高, 廣泛應用, 缺點: 學習門檻高, 需要完整掌握.\n技術/框架: Vue, 學習門檻: 低, 使用方式: 部分, 前瞻性: 中, 優點: 易於學習和理解, 有中英文檔可參考學習, 缺點: (未列出).\n技術/框架: Next.js, 學習門檻: 中, 使用方式: 部分, 前瞻性: 高, 優點: 基於React, 發展迅速, 部分使用, 無需全部學習, 缺點: (未列出).\n技術/框架: Firebase, 學習門檻: 低, 使用方式: 部分, 前瞻性: 中, 優點: 提供完整的後端服務, 易於使用, 缺點: 主機環境.\n技術/框架: python, 學習門檻: 中, 使用方式: 選擇性, 前瞻性: 高, 優點: 結構簡潔, 功能豐富, 選擇性導入, 缺點: (未列出).\n技術/框架: MySQL, 學習門檻: 中, 使用方式: 選擇性, 前瞻性: 中, 優點: 廣泛使用, 缺點: 資料量大時需要調整.\n技術/框架: MongoDB, 學習門檻: 低, 使用方式: 部分, 前瞻性: 中, 優點: 語法簡單, 功能完全, 文件好找, 缺點: 不是SQL 寫起來自由, 維護較不易.",
+    "bookmarks": 0,
+    "contributors": [
+      "林芯緹",
+      "蘇彥碩"
+    ],
+    "title": "(到目前為止,)使用哪個語言、資料庫開發?為何?優缺點是? - 林芯緹、蘇彥碩",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "FCNuI7a95L2nTmWIC24M"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.062000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "辛語柔",
+      "question_number": "1_supplement",
+      "answer": "後來喔,他們應該都有過,SA 幾乎是沒有人被當啦,幾乎啦,然後雖然吵架但他們的系統還是有做完嘛,但現在人際關係怎麼樣就不好說了。",
+      "question": "(補充)那後來有知道他們怎麼解決嗎?他們有修過這堂課嗎?",
+      "source": "辛語柔訪談紀錄",
+      "docId": "interview_xyr_srsd_issues_follow_up"
+    },
+    "content": "根據辛語柔的經驗\n\n後來喔,他們應該都有過,SA 幾乎是沒有人被當啦,幾乎啦,然後雖然吵架但他們的系統還是有做完嘛,但現在人際關係怎麼樣就不好說了。",
+    "bookmarks": 0,
+    "contributors": [
+      "辛語柔"
+    ],
+    "title": "(補充)那後來有知道他們怎麼解決嗎?他們有修過這堂課嗎? - 辛語柔",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "FI2ESSXLRIvisbfox4D2"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:51.819000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "董書妤、周佳欣",
+      "question_number": "3.3",
+      "answer": "整體運作屬於扁平化組織,組員遇到任何問題都會馬上提出並討論,各自會處理好自己的部分,且有餘力會互相幫助。但因為時常拖到期限前才完成,彼此間無法完整的進行進度追蹤,且在git 上未建立分支,因此整合會花上很多時間。",
+      "question": "如何定期追蹤組員進度?遇到甚麼問題?",
+      "source": "資管二乙第一組 訪談內容",
+      "docId": "interview_dev_progress_tracking"
+    },
+    "content": "根據董書妤、周佳欣的經驗\n\n整體運作屬於扁平化組織,組員遇到任何問題都會馬上提出並討論,各自會處理好自己的部分,且有餘力會互相幫助。但因為時常拖到期限前才完成,彼此間無法完整的進行進度追蹤,且在git 上未建立分支,因此整合會花上很多時間。",
+    "bookmarks": 0,
+    "contributors": [
+      "董書妤",
+      "周佳欣"
+    ],
+    "title": "如何定期追蹤組員進度?遇到甚麼問題? - 董書妤、周佳欣",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "GZErnDXeAKjlb80CIWjw"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.509000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "謝承祐",
+      "question_number": "4.2",
+      "answer": "專題網頁用python、phpmyadmin。\n影像辨識 mediapipe, OpenCv\n因為這兩個工具都是我們在學校學過的,也已經足夠在這個專案使用了\n優點:都是基於python 生態系,功能之間串接比較容易,前後端也比較好傳輸資料。\n缺點:大家都要學一套新的技術,中間會遇到很多困難,解決不了的問題,不過現在有GPT。",
+      "question": "使用哪個語言、資料庫開發?為何?優缺點是?",
+      "source": "訪問大三、大四學長姐 謝承祐",
+      "docId": "interview_scy_current_sys_dev_tech_stack"
+    },
+    "content": "根據謝承祐的經驗\n\n專題網頁用python、phpmyadmin。\n影像辨識 mediapipe, OpenCv\n因為這兩個工具都是我們在學校學過的,也已經足夠在這個專案使用了\n優點:都是基於python 生態系,功能之間串接比較容易,前後端也比較好傳輸資料。\n缺點:大家都要學一套新的技術,中間會遇到很多困難,解決不了的問題,不過現在有GPT。",
+    "bookmarks": 0,
+    "contributors": [
+      "謝承祐"
+    ],
+    "title": "使用哪個語言、資料庫開發?為何?優缺點是? - 謝承祐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "HII9Ev4HrDQy3fMRxuKx"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.387000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "謝承祐",
+      "question_number": "2.2",
+      "answer": "使用php寫後端,資料庫MySQL,因為當時只會這個,大部分組別應該也是。",
+      "question": "使用哪個語言、資料庫開發?為何?優缺點是?",
+      "source": "訪問大三、大四學長姐 謝承祐",
+      "docId": "interview_scy_sys_dev_tech_stack"
+    },
+    "content": "根據謝承祐的經驗\n\n使用php寫後端,資料庫MySQL,因為當時只會這個,大部分組別應該也是。",
+    "bookmarks": 0,
+    "contributors": [
+      "謝承祐"
+    ],
+    "title": "使用哪個語言、資料庫開發?為何?優缺點是? - 謝承祐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "JphVvMQMA8KPDfcW2HkX"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.994000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "林芯緹、蘇彥碩",
+      "question_number": "6",
+      "answer": "共同開發時要溝通好程式之命名規則，學姐建議以功能命名，也可以將自己邏輯想法寫在註解，讓大家和未來的自己都清楚這段程式碼在寫什麼。\n在開發過程中，不必緊張或害怕遇到錯誤。當出現錯誤時，細心地逐條檢查並進行修改，以排除問題。其中，若是顯示為紅色的錯誤，通常是最直觀的問題，可以直接解決。然而有時程式並未報錯並正常執行，但其運行結果與我預期不符，這時可能是邏輯錯誤所致，這是最難處理的情況。\n不要只學自己要負責範圍會使用到的工具，每個人用的都要多少懂一點，這樣能全組一同 debug 且將所有程式碼組裝在一起的時候較不會出現問題。",
+      "question": "對各位的建議是?",
+      "source": "SA訪問 0306",
+      "docId": "interview_sa_0306_lts_advice"
+    },
+    "content": "根據林芯緹、蘇彥碩的經驗\n\n共同開發時要溝通好程式之命名規則，學姐建議以功能命名，也可以將自己邏輯想法寫在註解，讓大家和未來的自己都清楚這段程式碼在寫什麼。\n在開發過程中，不必緊張或害怕遇到錯誤。當出現錯誤時，細心地逐條檢查並進行修改，以排除問題。其中，若是顯示為紅色的錯誤，通常是最直觀的問題，可以直接解決。然而有時程式並未報錯並正常執行，但其運行結果與我預期不符，這時可能是邏輯錯誤所致，這是最難處理的情況。\n不要只學自己要負責範圍會使用到的工具，每個人用的都要多少懂一點，這樣能全組一同 debug 且將所有程式碼組裝在一起的時候較不會出現問題。",
+    "bookmarks": 0,
+    "contributors": [
+      "林芯緹",
+      "蘇彥碩"
+    ],
+    "title": "對各位的建議是? - 林芯緹、蘇彥碩",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "KI7gz2uNpUiOd7gCEPqk"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.567000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "謝承祐",
+      "question_number": "5",
+      "answer": "可以活用ChatGPT,但請不要依賴、成員之間保持良好的溝通,碰到問題時理性解決,並且說出來自己的困難點一起討論,有助於團隊更和諧也可以大大加速進度的進展!",
+      "question": "對各位的建議是?",
+      "source": "訪問大三、大四學長姐 謝承祐",
+      "docId": "interview_scy_advice"
+    },
+    "content": "根據謝承祐的經驗\n\n可以活用ChatGPT,但請不要依賴、成員之間保持良好的溝通,碰到問題時理性解決,並且說出來自己的困難點一起討論,有助於團隊更和諧也可以大大加速進度的進展!",
+    "bookmarks": 0,
+    "contributors": [
+      "謝承祐"
+    ],
+    "title": "對各位的建議是? - 謝承祐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "L1Os6zvJhY5DssdwdaLo"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:54.076000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳少宇",
+      "question_number": "4",
+      "answer": "GIT 很好用,但是要大家都會用,記得在開發的時候大家各自開分支,然後在自己的分支裡做完,然後在開會的時候再把它合到主分支就是 Main 裡面,而且過程中可能會有遇到程式碼有衝突吧或是什麼的,你們就是在開會的時候一起解決它。然後盡量不要很多人動到同一個檔案,因為這樣可能會發生很嚴重的衝突會處理的眼花撩亂。",
+      "question": "使用git 嗎?遇到甚麼問題?",
+      "source": "吳少宇訪談紀錄",
+      "docId": "interview_wsy_q4"
+    },
+    "content": "根據吳少宇的經驗\n\nGIT 很好用,但是要大家都會用,記得在開發的時候大家各自開分支,然後在自己的分支裡做完,然後在開會的時候再把它合到主分支就是 Main 裡面,而且過程中可能會有遇到程式碼有衝突吧或是什麼的,你們就是在開會的時候一起解決它。然後盡量不要很多人動到同一個檔案,因為這樣可能會發生很嚴重的衝突會處理的眼花撩亂。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳少宇"
+    ],
+    "title": "使用git 嗎?遇到甚麼問題? - 吳少宇",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "LYX3K0yqFACPSDnD87wE"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.040000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "蔡易辰",
+      "question_number": "2",
+      "answer": "前一個月的課聽不太懂這堂課要幹嘛,因為前期都在準備文件、報告,後面才開始實作的部分,但老師給的網頁教材上寫的蠻清楚的,瀏覽一下就大概知道這堂課要幹嘛。",
+      "question": "從系統分析與設計課程中遇到甚麼問題?如何解決?",
+      "source": "訪問及 Deeplink 分享 第二組",
+      "docId": "interview2_srsd_issues"
+    },
+    "content": "根據蔡易辰的經驗\n\n前一個月的課聽不太懂這堂課要幹嘛,因為前期都在準備文件、報告,後面才開始實作的部分,但老師給的網頁教材上寫的蠻清楚的,瀏覽一下就大概知道這堂課要幹嘛。",
+    "bookmarks": 0,
+    "contributors": [
+      "蔡易辰"
+    ],
+    "title": "從系統分析與設計課程中遇到甚麼問題?如何解決? - 蔡易辰",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "O7UIiv9Ynb781hwzSXvv"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.507000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "朱浩偉",
+      "answer": "由於我們訪問到的學長所屬專題組別是產學合作的藝術治療,起初沒有人知道何謂藝術治療,這個主題的困難處在於可能不止在專題上需要學習新東西精進技術之外,同時也要了解這個主題,要先知道使用者的需求,才可以進行開發。因此必須要對於這個主題有概念以及整合現在所學,或是透過現有相似專案中的類似功能做參考。",
+      "question": "到目前為止,專題及系統開發中遇到的最大問題是什麼?如何解決?",
+      "source": "第三組 學長姐訪談",
+      "docId": "interview3_project_biggest_problem"
+    },
+    "content": "根據朱浩偉的經驗\n\n由於我們訪問到的學長所屬專題組別是產學合作的藝術治療,起初沒有人知道何謂藝術治療,這個主題的困難處在於可能不止在專題上需要學習新東西精進技術之外,同時也要了解這個主題,要先知道使用者的需求,才可以進行開發。因此必須要對於這個主題有概念以及整合現在所學,或是透過現有相似專案中的類似功能做參考。",
+    "bookmarks": 0,
+    "contributors": [
+      "朱浩偉"
+    ],
+    "title": "到目前為止,專題及系統開發中遇到的最大問題是什麼?如何解決? - 朱浩偉",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "OO01Rm26FptgUSxc1Xfv"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:54.202000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳少宇",
+      "question_number": "8",
+      "answer": "當然你的主題一定是要跟全部的人都討論過,因為大家都覺得有意思有辦法做的下去,才能繼續往前走,因為如果有人覺得很無聊,那會不會做到一半他開始擺爛了。就是匯聚大家的想法然後開始寫文件。",
+      "question": "(補充)那寫文件是類似一個發想的過程嗎,那這個想法是你個人有這個想法還是說你跟其他人就是共同覺得這個想法好像不錯然後決定做這個主題才開始寫的嗎?",
+      "source": "吳少宇訪談紀錄",
+      "docId": "interview_wsy_q8"
+    },
+    "content": "根據吳少宇的經驗\n\n當然你的主題一定是要跟全部的人都討論過,因為大家都覺得有意思有辦法做的下去,才能繼續往前走,因為如果有人覺得很無聊,那會不會做到一半他開始擺爛了。就是匯聚大家的想法然後開始寫文件。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳少宇"
+    ],
+    "title": "(補充)那寫文件是類似一個發想的過程嗎,那這個想法是你個人有這個想法還是說你跟其他人就是共同覺得這個想法好像不錯然後決定做這個主題才開始寫的嗎? - 吳少宇",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "P1LMlhYCFj8A6gQeOZg2"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.476000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "朱浩偉(假)",
+      "answer": "這個其實變動蠻大的。初期可能每週10-15小時，主要在研究和規劃。但進入開發和整合階段，尤其是接近死線或產學合作方有審查時，每週投入20-30小時甚至更多都是常態。我們沒有完全固定的時間，但會設定每週的目標，然後大家盡力去達成，畢竟專題的內容（藝術治療）對我們來說也是新的領域，需要額外時間去理解和消化。時間管理和避免倦怠是個持續的挑戰。",
+      "question": "請問學長姐在進行專題時，平均每週大概投入多少小時呢？是否有固定的時間，還是視進度而定？",
+      "source": "第三組 學長姐訪談",
+      "docId": "interview3_weekly_time_commitment"
+    },
+    "content": "根據朱浩偉(假)的經驗\n\n這個其實變動蠻大的。初期可能每週10-15小時，主要在研究和規劃。但進入開發和整合階段，尤其是接近死線或產學合作方有審查時，每週投入20-30小時甚至更多都是常態。我們沒有完全固定的時間，但會設定每週的目標，然後大家盡力去達成，畢竟專題的內容（藝術治療）對我們來說也是新的領域，需要額外時間去理解和消化。時間管理和避免倦怠是個持續的挑戰。",
+    "bookmarks": 0,
+    "contributors": [
+      "朱浩偉(假)"
+    ],
+    "title": "請問學長姐在進行專題時，平均每週大概投入多少小時呢？是否有固定的時間，還是視進度而定？ - 朱浩偉(假)",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "Q4iR8PmkxK9ZTV1cd9mL"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:54.017000+00:00",
+    "isTeachingMaterial": false,
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳少宇",
+      "question_number": "2",
+      "answer": "題目如果訂的很廣很多就是範圍很大你開發起來的工作相對會多,但是你也可以一開始先訂的比較大一點,然後因為老師不是會有一次一次的發表嗎?你可以透過每一次的發表、大家的回饋去慢慢修正你的系統",
+      "question": "(補充)定題目的範圍廣闊會影響到開發的難易程度嗎?",
+      "source": "吳少宇訪談紀錄",
+      "docId": "interview_wsy_q2"
+    },
+    "content": "根據吳少宇的經驗\n\n題目如果訂的很廣很多就是範圍很大你開發起來的工作相對會多,但是你也可以一開始先訂的比較大一點,然後因為老師不是會有一次一次的發表嗎?你可以透過每一次的發表、大家的回饋去慢慢修正你的系統",
+    "bookmarks": 0,
+    "contributors": [
+      "吳少宇"
+    ],
+    "title": "(補充)定題目的範圍廣闊會影響到開發的難易程度嗎",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "yCEGxBJWwWQI0KVvmJ6nrnXj9Dn2",
+      "name": "dis.awezing80"
+    },
+    "isTimeSensitive": false,
+    "id": "QLDGxvB9si51JZoMGjcR"
+  },
+  {
+    "comments_count": 1,
+    "created_at": "2026-03-30T07:22:44.113000+00:00",
+    "likes": 0,
+    "aiDraftContent": "大家好，我正在學習自動測試，想請教一下你們是否有可參考的實際案例？特別是像 Selenium 或其他自動測試工具的使用經驗。不論是成功的專案還是你們遇到的挑戰和解決方案，都希望可以分享一下，這對我會非常有幫助！謝謝！",
+    "content": "大家好，我正在學習自動測試，想請教一下你們是否有可參考的實際案例？特別是像 Selenium 或其他自動測試工具的使用經驗。不論是成功的專案還是你們遇到的挑戰和解決方案，都希望可以分享一下，這對我會非常有幫助！謝謝！",
+    "bookmarks": 0,
+    "title": "尋求自動測試的實例分享",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/266685134?v=4",
+      "id": "toS7kSs4OIT8jHTpmrRFfw3QswJ2",
+      "name": "happyangel0107"
+    },
+    "aiDraftTitle": "尋求自動測試的實例分享",
+    "isDraftFromAI": true,
+    "id": "QUarecfG0HuUeixPvaXB"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:51.781000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "董書妤、周佳欣",
+      "question_number": "3.2",
+      "answer": "只有使用到Firebase 和 React,且沒有再加其他的框架。使用的語言不管前後端都是以前沒有接觸過的。\nReact 優點: 與JS和HTML 相比,React 更簡單且模組化,能夠一次性在原始頁面進行重複元素的修改,維護相當方便。目前在業界也被廣泛應用。\nReact 缺點: 在未曾接觸過的情況下,需要花時間自行摸索和熟悉,並且對大型應用的擴展性有挑戰。\nFirebase 優點: 屬於Nosql,且CRUD 等等大功能都已經存在,功能相當齊全,使用者可直接進行使用。\nFirebase 缺點: Firebase 使用上很便利,但有成本、限制和依賴問題。",
+      "question": "使用哪個語言、資料庫開發?為何?優缺點是?",
+      "source": "資管二乙第一組 訪談內容",
+      "docId": "interview_dev_languages_db"
+    },
+    "content": "根據董書妤、周佳欣的經驗\n\n只有使用到Firebase 和 React,且沒有再加其他的框架。使用的語言不管前後端都是以前沒有接觸過的。\nReact 優點: 與JS和HTML 相比,React 更簡單且模組化,能夠一次性在原始頁面進行重複元素的修改,維護相當方便。目前在業界也被廣泛應用。\nReact 缺點: 在未曾接觸過的情況下,需要花時間自行摸索和熟悉,並且對大型應用的擴展性有挑戰。\nFirebase 優點: 屬於Nosql,且CRUD 等等大功能都已經存在,功能相當齊全,使用者可直接進行使用。\nFirebase 缺點: Firebase 使用上很便利,但有成本、限制和依賴問題。",
+    "bookmarks": 0,
+    "contributors": [
+      "董書妤",
+      "周佳欣"
+    ],
+    "title": "使用哪個語言、資料庫開發?為何?優缺點是? - 董書妤、周佳欣",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "RBmOU0SpyBCIwRmZkRhM"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:51.852000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "董書妤、周佳欣",
+      "question_number": "4",
+      "answer": "學長姐正式在製作專題時,前端和後端都換成了新的語言,因此前期花費了些許時間熟悉新語言。然而,整個製作過程遇到最大的問題是:為了實現專題預期的效果,學長姐決定加入時下新穎的 AI 工具Microsoft azure 做使用。因為採用的是最新的架構,很難上網找到更好的參考對象以及資源來更好的運用這些服務。",
+      "question": "(到目前為止,)專題遇到的最大問題是甚麼?如何解決?",
+      "source": "資管二乙第一組 訪談內容",
+      "docId": "interview_project_biggest_problem"
+    },
+    "content": "根據董書妤、周佳欣的經驗\n\n學長姐正式在製作專題時,前端和後端都換成了新的語言,因此前期花費了些許時間熟悉新語言。然而,整個製作過程遇到最大的問題是:為了實現專題預期的效果,學長姐決定加入時下新穎的 AI 工具Microsoft azure 做使用。因為採用的是最新的架構,很難上網找到更好的參考對象以及資源來更好的運用這些服務。",
+    "bookmarks": 0,
+    "contributors": [
+      "董書妤",
+      "周佳欣"
+    ],
+    "title": "(到目前為止,)專題遇到的最大問題是甚麼?如何解決? - 董書妤、周佳欣",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "RTrKnhraG41DFmGvbMos"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.758000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳建豐",
+      "question_number": "Q6",
+      "answer": "寫前端很容易跑版。因為5個人一起做之後會出現很多問題,因為程式碼可能不兼容還是什麼的,所以整合程式碼後要妥善處理 github,可以的話前端部分不要弄得太過複雜,建議找模板然後修改,比一行一行刻字好。找一個比較OK的模板大家一起用。",
+      "question": "進行使用者介面設計時遇到甚麼問題?如何解決?",
+      "source": "SA專題---學長訪談 第十二組",
+      "docId": "interview_wjf_ui_design"
+    },
+    "content": "根據吳建豐的經驗\n\n寫前端很容易跑版。因為5個人一起做之後會出現很多問題,因為程式碼可能不兼容還是什麼的,所以整合程式碼後要妥善處理 github,可以的話前端部分不要弄得太過複雜,建議找模板然後修改,比一行一行刻字好。找一個比較OK的模板大家一起用。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳建豐"
+    ],
+    "title": "進行使用者介面設計時遇到甚麼問題?如何解決? - 吳建豐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "Rh03hiHAPqA1Eu9BzWjR"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:51.880000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "董書妤、周佳欣",
+      "question_number": "5",
+      "answer": "學姐們指出,系統運作的流程需要經過討論,但有時討論不夠明確或者意見不一致時,可能需要重新設計。由於學長姐們的專題需要使用到 AI 技術,各人對於設計的預設想法可能存在差異,因此達成共識十分重要。透過詳細的說明可以讓自己的想法更清晰地被理解。同時,若有問題可立即提出,以便全組同學共同討論和解決。",
+      "question": "(到目前為止,)系統開發中遇到甚麼問題?如何解決?",
+      "source": "資管二乙第一組 訪談內容",
+      "docId": "interview_sysdev_current_issues"
+    },
+    "content": "根據董書妤、周佳欣的經驗\n\n學姐們指出,系統運作的流程需要經過討論,但有時討論不夠明確或者意見不一致時,可能需要重新設計。由於學長姐們的專題需要使用到 AI 技術,各人對於設計的預設想法可能存在差異,因此達成共識十分重要。透過詳細的說明可以讓自己的想法更清晰地被理解。同時,若有問題可立即提出,以便全組同學共同討論和解決。",
+    "bookmarks": 0,
+    "contributors": [
+      "董書妤",
+      "周佳欣"
+    ],
+    "title": "(到目前為止,)系統開發中遇到甚麼問題?如何解決? - 董書妤、周佳欣",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "RsTVseV001gkZUFi3bVm"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.170000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "蔡易辰",
+      "question_number": "6",
+      "answer": "因為前後端要溝通,我會講說你前端要準備什麼,物件跟表單的名字要叫什麼,不然五個人可能會有五個不同的名字出現。再來也很重要的是定期限,期限內沒有交出來我就會每天關心你,但我的組員不太會拖。",
+      "question": "如何定期追蹤組員進度?遇到甚麼問題?",
+      "source": "訪問及 Deeplink 分享 第二組",
+      "docId": "interview2_progress_tracking_sa"
+    },
+    "content": "根據蔡易辰的經驗\n\n因為前後端要溝通,我會講說你前端要準備什麼,物件跟表單的名字要叫什麼,不然五個人可能會有五個不同的名字出現。再來也很重要的是定期限,期限內沒有交出來我就會每天關心你,但我的組員不太會拖。",
+    "bookmarks": 0,
+    "contributors": [
+      "蔡易辰"
+    ],
+    "title": "如何定期追蹤組員進度?遇到甚麼問題? - 蔡易辰",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "UB0qa9TDOVpHG6vE44Fm"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:54.324000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳少宇",
+      "question_number": "12",
+      "answer": "新的問題沒有遇到,但是跟 SA 的差別就是經過 SA 之後我們比較知道開會要幹嘛,因為我們當時在 SA 開會的時候很常大家坐在那邊不知道要幹嘛,開會的時候一定要先想好你們討論的主題是什麼,然後要處理什麼問題,因為專題開會遇到最大的問題是我們很容易分心,因為大家都熟的人,然後可能講一講就開始聊天,我覺得這樣有點浪費時間,所以開會不要分心滿重要的,然後要做什麼事情想清楚。那開會的主題舉例,定期追蹤進度,就是我們可能前一週的會議會先分好大家這一週要幹嘛,每個人這一週的進度在哪裡,然後開會的時候就是大家會講自己的成果,然後有什麼困難大家可以出來討論,或是有什麼一定要討論的問題可以討論這樣。",
+      "question": "如何定期追蹤組員進度?跟SA一樣嗎?遇到甚麼問題?",
+      "source": "吳少宇訪談紀錄",
+      "docId": "interview_wsy_q12"
+    },
+    "content": "根據吳少宇的經驗\n\n新的問題沒有遇到,但是跟 SA 的差別就是經過 SA 之後我們比較知道開會要幹嘛,因為我們當時在 SA 開會的時候很常大家坐在那邊不知道要幹嘛,開會的時候一定要先想好你們討論的主題是什麼,然後要處理什麼問題,因為專題開會遇到最大的問題是我們很容易分心,因為大家都熟的人,然後可能講一講就開始聊天,我覺得這樣有點浪費時間,所以開會不要分心滿重要的,然後要做什麼事情想清楚。那開會的主題舉例,定期追蹤進度,就是我們可能前一週的會議會先分好大家這一週要幹嘛,每個人這一週的進度在哪裡,然後開會的時候就是大家會講自己的成果,然後有什麼困難大家可以出來討論,或是有什麼一定要討論的問題可以討論這樣。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳少宇"
+    ],
+    "title": "如何定期追蹤組員進度?跟SA一樣嗎?遇到甚麼問題? - 吳少宇",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "V77kqjlKElYNMLSCls5j"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.659000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳建豐",
+      "question_number": "Q3",
+      "answer": "如果沒有去訪問使用者或實際關聯人員的話,可能會發現有些問題跟主題其實沒有完全關聯或是沒有辦法解決什麼的。",
+      "question": "了解使用者的情境、問題、價值時遇到甚麼問題?如何解決?",
+      "source": "SA專題---學長訪談 第十二組",
+      "docId": "interview_wjf_user_understanding"
+    },
+    "content": "根據吳建豐的經驗\n\n如果沒有去訪問使用者或實際關聯人員的話,可能會發現有些問題跟主題其實沒有完全關聯或是沒有辦法解決什麼的。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳建豐"
+    ],
+    "title": "了解使用者的情境、問題、價值時遇到甚麼問題?如何解決? - 吳建豐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "X6h173EidWB5FIcN7TF1"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.657000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "彭文暘",
+      "question_number": "4",
+      "answer": "語言是D hub,資料庫是MySQL。優點是之前學過。我們是用D hub去連接它的程式碼,但當時資料庫沒有完整的規劃好,最後資料庫就連不起來。每次更動資料庫就壓縮後上傳到群組,這樣就能讓組員有最新的資料庫。",
+      "question": "使用哪個語言、資料庫開發?為何?優缺點是?",
+      "source": "彭文暘訪談紀錄",
+      "docId": "interview_pwy_tech_stack"
+    },
+    "content": "根據彭文暘的經驗\n\n語言是D hub,資料庫是MySQL。優點是之前學過。我們是用D hub去連接它的程式碼,但當時資料庫沒有完整的規劃好,最後資料庫就連不起來。每次更動資料庫就壓縮後上傳到群組,這樣就能讓組員有最新的資料庫。",
+    "bookmarks": 0,
+    "contributors": [
+      "彭文暘"
+    ],
+    "title": "使用哪個語言、資料庫開發?為何?優缺點是? - 彭文暘",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "XeWQgDqWcOC40eTrLXp4"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:51.912000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "董書妤、周佳欣",
+      "question_number": "5.1",
+      "answer": "有,且同時使用 Devops 來記錄以及分配代辦事項給其他組員,並以其為命名依據。此舉改善了沒有建立分支的問題。",
+      "question": "使用 git 嗎?遇到甚麼問題? (專題)",
+      "source": "資管二乙第一組 訪談內容",
+      "docId": "interview_sysdev_git_devops"
+    },
+    "content": "根據董書妤、周佳欣的經驗\n\n有,且同時使用 Devops 來記錄以及分配代辦事項給其他組員,並以其為命名依據。此舉改善了沒有建立分支的問題。",
+    "bookmarks": 0,
+    "contributors": [
+      "董書妤",
+      "周佳欣"
+    ],
+    "title": "使用 git 嗎?遇到甚麼問題? (專題) - 董書妤、周佳欣",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "YLlrOPp90aQgJHQdJ1Hn"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.445000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "朱浩偉",
+      "answer": "會盡量詢問關心每個組員現在進度在哪,同時也會先想一下專題大概要如何做以及從哪開始做,了解一下大家現階段遇到什麼問題,再告訴他們如果是自己的角度的話會怎麼寫,以及運用網上資源查詢,總結出如何開發後再告訴大家。\n遇到的問題是,有時組員做到一段落之後會疲乏導致進度暫時停滯,解決辦法是要努力讓每個人認知到專題的重要性以及現在大家必須一起完成一份專題,同時也要有效率及共識的討論,針對專題大家都要有一定程度的了解。",
+      "question": "如何定期追蹤組員進度?遇到什麼問題?",
+      "source": "第三組 學長姐訪談",
+      "docId": "interview3_progress_tracking"
+    },
+    "content": "根據朱浩偉的經驗\n\n會盡量詢問關心每個組員現在進度在哪,同時也會先想一下專題大概要如何做以及從哪開始做,了解一下大家現階段遇到什麼問題,再告訴他們如果是自己的角度的話會怎麼寫,以及運用網上資源查詢,總結出如何開發後再告訴大家。\n遇到的問題是,有時組員做到一段落之後會疲乏導致進度暫時停滯,解決辦法是要努力讓每個人認知到專題的重要性以及現在大家必須一起完成一份專題,同時也要有效率及共識的討論,針對專題大家都要有一定程度的了解。",
+    "bookmarks": 0,
+    "contributors": [
+      "朱浩偉"
+    ],
+    "title": "如何定期追蹤組員進度?遇到什麼問題? - 朱浩偉",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "YZya63wRGROPEnjdEZBQ"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.281000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "辛語柔",
+      "question_number": "7",
+      "answer": "我給你們專題的建議是組員很重要,還有主題和教授是第二重要的,因為你們現在開始合作嘛,在合作的過程中就會發現到一些問題,那如果覺得不適合就可以考慮專題要去換組員,因為如果發生摩擦,換組員你們的關係才會變好,畢竟你們之後就不會再共事了,也就不會摩擦了。然後換組員的部分要早點找,教授也要早點找,我們那時候是在期末考前一周就開始約教授,然後教授也要看,有些是比較輕鬆的有些是比較嚴格的,看你比較喜歡哪一種,嚴格的可能就是會盯比較緊,每周都會盯你的進度。而且通常在暑假前就會分好組了,所以開學前就都會決定好了,如果你沒找到組員 or 教授系上就會幫你分,那組員的素質就比較參差不齊。因為我們現在還只是大學生,所以技術上的問題只要上網查一下就能解決了。",
+      "question": "對各位的建議是?",
+      "source": "辛語柔訪談紀錄",
+      "docId": "interview_xyr_advice"
+    },
+    "content": "根據辛語柔的經驗\n\n我給你們專題的建議是組員很重要,還有主題和教授是第二重要的,因為你們現在開始合作嘛,在合作的過程中就會發現到一些問題,那如果覺得不適合就可以考慮專題要去換組員,因為如果發生摩擦,換組員你們的關係才會變好,畢竟你們之後就不會再共事了,也就不會摩擦了。然後換組員的部分要早點找,教授也要早點找,我們那時候是在期末考前一周就開始約教授,然後教授也要看,有些是比較輕鬆的有些是比較嚴格的,看你比較喜歡哪一種,嚴格的可能就是會盯比較緊,每周都會盯你的進度。而且通常在暑假前就會分好組了,所以開學前就都會決定好了,如果你沒找到組員 or 教授系上就會幫你分,那組員的素質就比較參差不齊。因為我們現在還只是大學生,所以技術上的問題只要上網查一下就能解決了。",
+    "bookmarks": 0,
+    "contributors": [
+      "辛語柔"
+    ],
+    "title": "對各位的建議是? - 辛語柔",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "YseR4cTfxLs18m1mbvBi"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.783000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "彭文暘",
+      "question_number": "8",
+      "answer": "我覺得最重要的是要訂好每個禮拜開會的流程,就這禮拜要完成什麼事情,然後看大家有沒有完成這樣。組內進度最好要超前教授表訂的進度一到兩個禮拜,不要到當周才把當周的東西做完,不然到後期進度會很趕。",
+      "question": "對各位的建議是?",
+      "source": "彭文暘訪談紀錄",
+      "docId": "interview_pwy_advice"
+    },
+    "content": "根據彭文暘的經驗\n\n我覺得最重要的是要訂好每個禮拜開會的流程,就這禮拜要完成什麼事情,然後看大家有沒有完成這樣。組內進度最好要超前教授表訂的進度一到兩個禮拜,不要到當周才把當周的東西做完,不然到後期進度會很趕。",
+    "bookmarks": 0,
+    "contributors": [
+      "彭文暘"
+    ],
+    "title": "對各位的建議是? - 彭文暘",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "ZoOTVADEgsNC7oWmYKyT"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.029000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "辛語柔",
+      "question_number": "1",
+      "answer": "我們這組沒有遇到甚麼問題內,但我有看到其他組出現了一些問題,像是可能學習了新的語言但沒有時間學,但其實技術性上的問題都沒什麼,比較常見的是人際關係上的問題,像是可能會和組員吵架,組員不來上課,因為9點上課太早了,或是組員可能沒有把重心放在 SA 這堂課上,可能他們還有打工、社團什麼的。然後因為每個人放在 SA 的心力都不太一樣,所以有些人就會覺得比較不平衡,就會開始吵架這樣。",
+      "question": "從系統分析與設計課程中遇到甚麼問題?",
+      "source": "辛語柔訪談紀錄",
+      "docId": "interview_xyr_srsd_issues"
+    },
+    "content": "根據辛語柔的經驗\n\n我們這組沒有遇到甚麼問題內,但我有看到其他組出現了一些問題,像是可能學習了新的語言但沒有時間學,但其實技術性上的問題都沒什麼,比較常見的是人際關係上的問題,像是可能會和組員吵架,組員不來上課,因為9點上課太早了,或是組員可能沒有把重心放在 SA 這堂課上,可能他們還有打工、社團什麼的。然後因為每個人放在 SA 的心力都不太一樣,所以有些人就會覺得比較不平衡,就會開始吵架這樣。",
+    "bookmarks": 0,
+    "contributors": [
+      "辛語柔"
+    ],
+    "title": "從系統分析與設計課程中遇到甚麼問題? - 辛語柔",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "aNeIlrCeEIJj6411j4Hq"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.480000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "謝承祐",
+      "question_number": "4.1",
+      "answer": "最大的問題是無法讓大家做好的進度統整,可能會造成沒有必要的重複作業或是因為沒有及時合併,造成程式的衝突。使用git可以有效地解決這個問題,可以及時pull跟push最新的程式,也可以看到上次誰誰誰更改了哪一些程式,是個很好的工具,但是因為是第一次使用,所以需要學習一下如何使用操作。",
+      "question": "使用git嗎?遇到甚麼問題?",
+      "source": "訪問大三、大四學長姐 謝承祐",
+      "docId": "interview_scy_current_sys_dev_git"
+    },
+    "content": "根據謝承祐的經驗\n\n最大的問題是無法讓大家做好的進度統整,可能會造成沒有必要的重複作業或是因為沒有及時合併,造成程式的衝突。使用git可以有效地解決這個問題,可以及時pull跟push最新的程式,也可以看到上次誰誰誰更改了哪一些程式,是個很好的工具,但是因為是第一次使用,所以需要學習一下如何使用操作。",
+    "bookmarks": 0,
+    "contributors": [
+      "謝承祐"
+    ],
+    "title": "使用git嗎?遇到甚麼問題? - 謝承祐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "bKfOY1aiF7oLjQpVTnza"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:54.169000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳少宇",
+      "question_number": "7",
+      "answer": "因為我們專題是先把文件上學期先把文件寫好,現在最大問題就是進度問題,如何解決就是拼命寫。你規劃一個系統需要先寫一個系統的計劃書我們都叫他系統文件,裡面就會寫你的系統的開發目的、要解決什麼問題然後系統的設計、使用者的流程、使用者會遇到哪些問題、會遇到哪些情境,然後你們提供什麼樣的服務,你要詳細的寫你整個系統要幹嘛。因為你不能不知道系統寫了是為什麼然後就一直寫程式。",
+      "question": "(到目前為止,)專題遇到的最大問題是甚麼?如何解決?",
+      "source": "吳少宇訪談紀錄",
+      "docId": "interview_wsy_q7"
+    },
+    "content": "根據吳少宇的經驗\n\n因為我們專題是先把文件上學期先把文件寫好,現在最大問題就是進度問題,如何解決就是拼命寫。你規劃一個系統需要先寫一個系統的計劃書我們都叫他系統文件,裡面就會寫你的系統的開發目的、要解決什麼問題然後系統的設計、使用者的流程、使用者會遇到哪些問題、會遇到哪些情境,然後你們提供什麼樣的服務,你要詳細的寫你整個系統要幹嘛。因為你不能不知道系統寫了是為什麼然後就一直寫程式。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳少宇"
+    ],
+    "title": "(到目前為止,)專題遇到的最大問題是甚麼?如何解決? - 吳少宇",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "cYhTfIlKaJqwuiBEen2L"
+  },
+  {
+    "comments_count": 1,
+    "created_at": "2026-03-30T17:10:47.958000+00:00",
+    "likes": 0,
+    "aiDraftContent": "我正在處理一個活動審核的情況，但負責的老師尚未進行審查，導致整個進度卡住。如果在這種情況下，其他人想要租借我們想要的地點，該如何處理？我擔心這會影響我們的計劃。希望能獲得一些建議！",
+    "content": "我正在處理一個活動審核的情況，但負責的老師尚未進行審查，導致整個進度卡住。如果在這種情況下，其他人想要租借我們想要的地點，該如何處理？我擔心這會影響我們的計劃。希望能獲得一些建議！ hahapiyan",
+    "bookmarks": 0,
+    "title": "活動審核延遲及租借問題求助",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/265207255?v=4",
+      "id": "499lLHw5QJbRpNBL3ZnNeNyrVkE3",
+      "name": "alice0905059763"
+    },
+    "aiDraftTitle": "活動審核延遲及租借問題求助",
+    "isDraftFromAI": true,
+    "id": "dgH4hN50B2hOvM8KeQuk"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.951000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳建豐",
+      "question_number": "Q12",
+      "answer": "當你尋找專題老師時,不僅僅是為了得到指導,更是為了建立一個堅實的合作基礎。選擇合適的老師,他的研究方向和風格應與你的興趣和學術目標相相符,這樣將能夠確保你在整個研究過程中獲得最大的幫助。\n向學長學姐尋求建議很有用,他們不僅能分享尋找老師的心得,還可能提供實用的技巧,如何與指導教授進行有效的溝通,以及在尋找適合專題的過程中應該注意的事項。這樣的分享和交流能夠為你的選擇提供更全面的視野,有助於做出明智的決定。\n確保良好的溝通很重要。透過線上開會,可以僅行即時且緊密的交流。在這個過程中,提出問題並進行交流,當有遇到困難時立即提出,盡快解決問題,能夠確保所有團隊成員對項目的理解一致,確保團隊的進度。",
+      "question": "對各位的建議是?",
+      "source": "SA專題---學長訪談 第十二組",
+      "docId": "interview_wjf_advice"
+    },
+    "content": "根據吳建豐的經驗\n\n當你尋找專題老師時,不僅僅是為了得到指導,更是為了建立一個堅實的合作基礎。選擇合適的老師,他的研究方向和風格應與你的興趣和學術目標相相符,這樣將能夠確保你在整個研究過程中獲得最大的幫助。\n向學長學姐尋求建議很有用,他們不僅能分享尋找老師的心得,還可能提供實用的技巧,如何與指導教授進行有效的溝通,以及在尋找適合專題的過程中應該注意的事項。這樣的分享和交流能夠為你的選擇提供更全面的視野,有助於做出明智的決定。\n確保良好的溝通很重要。透過線上開會,可以僅行即時且緊密的交流。在這個過程中,提出問題並進行交流,當有遇到困難時立即提出,盡快解決問題,能夠確保所有團隊成員對項目的理解一致,確保團隊的進度。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳建豐"
+    ],
+    "title": "對各位的建議是? - 吳建豐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "drlyuW9Rpax5ZHQ6Uawj"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.314000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "謝承祐",
+      "question_number": "1",
+      "answer": "在分配完工作後發現自己不太會處理,需時常上網查詢資料與如何製作,要多跟組員溝通,這是一組的事情,不是個人的事情,如果每個人都願意為組多付出一點。\n分工很重要,不要因為想平分工作,硬把系統拆開,會發現要結合再一起會結合到崩潰。變數名稱、語法的整合之類的,其實可以先統一,不然别人看你寫的程式可能會看不懂,又要花很多時間。\n可以以功能來分工作,先把系統架構雛形做出來,再根據功能分配工作。",
+      "question": "從系統分析與設計課程中遇到甚麼問題?如何解決?",
+      "source": "訪問大三、大四學長姐 謝承祐",
+      "docId": "interview_scy_srsd_issues"
+    },
+    "content": "根據謝承祐的經驗\n\n在分配完工作後發現自己不太會處理,需時常上網查詢資料與如何製作,要多跟組員溝通,這是一組的事情,不是個人的事情,如果每個人都願意為組多付出一點。\n分工很重要,不要因為想平分工作,硬把系統拆開,會發現要結合再一起會結合到崩潰。變數名稱、語法的整合之類的,其實可以先統一,不然别人看你寫的程式可能會看不懂,又要花很多時間。\n可以以功能來分工作,先把系統架構雛形做出來,再根據功能分配工作。",
+    "bookmarks": 0,
+    "contributors": [
+      "謝承祐"
+    ],
+    "title": "從系統分析與設計課程中遇到甚麼問題?如何解決? - 謝承祐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "eFxz0fJf5xuZwjOnZpJ8"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.353000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "蔡易辰",
+      "question_number": "12",
+      "answer": "- 一定要會用 git,因為我們是多人小組作業\n- 可以趁現在多學其他框架或程式語言,例如 react、vue.js...\n- 組內定完成的期限要提前一點,才不會最後在裝前後端的時候,突然出現一堆 bug,來不及解決\n- 專題要早點想完題目早點開始做",
+      "question": "對各位的建議是?",
+      "source": "訪問及 Deeplink 分享 第二組",
+      "docId": "interview2_advice_for_others"
+    },
+    "content": "根據蔡易辰的經驗\n\n- 一定要會用 git,因為我們是多人小組作業\n- 可以趁現在多學其他框架或程式語言,例如 react、vue.js...\n- 組內定完成的期限要提前一點,才不會最後在裝前後端的時候,突然出現一堆 bug,來不及解決\n- 專題要早點想完題目早點開始做",
+    "bookmarks": 1,
+    "contributors": [
+      "蔡易辰"
+    ],
+    "title": "對各位的建議是? - 蔡易辰",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "eqbfAj9paQvivEFA9PU0"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.622000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "彭文暘",
+      "question_number": "3",
+      "answer": "有。沒有。",
+      "question": "使用git嗎?遇到甚麼問題?",
+      "source": "彭文暘訪談紀錄",
+      "docId": "interview_pwy_git_usage"
+    },
+    "content": "根據彭文暘的經驗\n\n有。沒有。",
+    "bookmarks": 0,
+    "contributors": [
+      "彭文暘"
+    ],
+    "title": "使用git嗎?遇到甚麼問題? - 彭文暘",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "fGo3GqTbfNIeBJAAWvgh"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.629000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳建豐",
+      "question_number": "Q2",
+      "answer": "1. 由於SA的課程是小組開發,因此少不了使用Git。由於是第一次使用,所以對介面不甚熟悉,也無法很直覺地進行操作。而隨著使用時數越來越長,便也慢慢得心應手。\n2. 在SA的課程中很常遇到需要作出一個功能,然而系上的課程沒有教過的這種情況,此時就得要上網查詢,或是詢問GPT等。",
+      "question": "哪些觀念不容易懂?如何解決?",
+      "source": "SA專題---學長訪談 第十二組",
+      "docId": "interview_wjf_srsd_concepts"
+    },
+    "content": "根據吳建豐的經驗\n\n1. 由於SA的課程是小組開發,因此少不了使用Git。由於是第一次使用,所以對介面不甚熟悉,也無法很直覺地進行操作。而隨著使用時數越來越長,便也慢慢得心應手。\n2. 在SA的課程中很常遇到需要作出一個功能,然而系上的課程沒有教過的這種情況,此時就得要上網查詢,或是詢問GPT等。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳建豐"
+    ],
+    "title": "哪些觀念不容易懂?如何解決? - 吳建豐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "ffIN0mszKx3oDOGKrV2P"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.383000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "朱浩偉",
+      "answer": "認為自身技術及程度不夠,在開發過程中必須不斷精進自我能力才可以趕上自己預期想要開發出來的東西,若是想要讓自己能夠更進步,就必須善用現有網路資料,遇到問題或瓶頸把握可以問的機會問比自己程度更好且願意幫忙的人等等。",
+      "question": "從系統分析與設計課程中遇到什麼問題?如何解決?",
+      "source": "第三組 學長姐訪談",
+      "docId": "interview3_srsd_issues"
+    },
+    "content": "根據朱浩偉的經驗\n\n認為自身技術及程度不夠,在開發過程中必須不斷精進自我能力才可以趕上自己預期想要開發出來的東西,若是想要讓自己能夠更進步,就必須善用現有網路資料,遇到問題或瓶頸把握可以問的機會問比自己程度更好且願意幫忙的人等等。",
+    "bookmarks": 0,
+    "contributors": [
+      "朱浩偉"
+    ],
+    "title": "從系統分析與設計課程中遇到什麼問題?如何解決? - 朱浩偉",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "iJKI2HSidtln1oeMQ3py"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.134000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "蔡易辰",
+      "question_number": "5",
+      "answer": "跟後端一樣,HTML、CSS、PHP,資料庫的部分是用 MySQL。會使用的原因是上學期(大二上)才剛學過。但強烈建議不要只用這個,因為目前還是SA 的階段,他不是專題,所以有更多時間可以學其他程式語言,如果專題要用另一個語言開發的時候,又要再花時間從頭去學。",
+      "question": "使用哪個語言、資料庫開發?為何?優缺點是?",
+      "source": "訪問及 Deeplink 分享 第二組",
+      "docId": "interview2_languages_db_sa"
+    },
+    "content": "根據蔡易辰的經驗\n\n跟後端一樣,HTML、CSS、PHP,資料庫的部分是用 MySQL。會使用的原因是上學期(大二上)才剛學過。但強烈建議不要只用這個,因為目前還是SA 的階段,他不是專題,所以有更多時間可以學其他程式語言,如果專題要用另一個語言開發的時候,又要再花時間從頭去學。",
+    "bookmarks": 0,
+    "contributors": [
+      "蔡易辰"
+    ],
+    "title": "使用哪個語言、資料庫開發?為何?優缺點是? - 蔡易辰",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "iU1jhYYbIRtQX5ktvguu"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.687000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "彭文暘",
+      "question_number": "5",
+      "answer": "固定每個禮拜開一次會,開會過程中就會把下一個禮拜的進度規劃好,同時也會檢視上禮拜的進度有沒有按時完成。如果沒有按時完成,我們就會尋找解決方案。",
+      "question": "如何定期追蹤組員進度?遇到甚麼問題?",
+      "source": "彭文暘訪談紀錄",
+      "docId": "interview_pwy_progress_tracking"
+    },
+    "content": "根據彭文暘的經驗\n\n固定每個禮拜開一次會,開會過程中就會把下一個禮拜的進度規劃好,同時也會檢視上禮拜的進度有沒有按時完成。如果沒有按時完成,我們就會尋找解決方案。",
+    "bookmarks": 0,
+    "contributors": [
+      "彭文暘"
+    ],
+    "title": "如何定期追蹤組員進度?遇到甚麼問題? - 彭文暘",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "jEpPhPTuT6dhbNQAybYc"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:51.944000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "董書妤、周佳欣",
+      "question_number": "5.2",
+      "answer": "因為專題製作上有產學合作,需要配合對方使用一樣的語言,因此前端、後端以及資料庫都是使用和先前不同的語言,前端使用的是 Vue、後端使用.net、資料庫則是使用 sqlserver。",
+      "question": "使用哪個語言、資料庫開發?跟SA使用的一樣嗎?為何? (專題)",
+      "source": "資管二乙第一組 訪談內容",
+      "docId": "interview_sysdev_languages_db_sa_comparison"
+    },
+    "content": "根據董書妤、周佳欣的經驗\n\n因為專題製作上有產學合作,需要配合對方使用一樣的語言,因此前端、後端以及資料庫都是使用和先前不同的語言,前端使用的是 Vue、後端使用.net、資料庫則是使用 sqlserver。",
+    "bookmarks": 0,
+    "contributors": [
+      "董書妤",
+      "周佳欣"
+    ],
+    "title": "使用哪個語言、資料庫開發?跟SA使用的一樣嗎?為何? (專題) - 董書妤、周佳欣",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "jYFeIAai8vECz1a2pDdO"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:54.049000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳少宇",
+      "question_number": "3",
+      "answer": "我自己覺得比較大的問題是大家的程式能力就是有強有弱啦所以可能你們分工出來之後其他人的成果可能會不如預期這樣。那解決方法就是要透過常常開會去追蹤大家的進度,有人遇到困難可能就是要多幫忙吧畢竟成績是大家的。",
+      "question": "從系統開發中遇到甚麼問題?如何解決?",
+      "source": "吳少宇訪談紀錄",
+      "docId": "interview_wsy_q3"
+    },
+    "content": "根據吳少宇的經驗\n\n我自己覺得比較大的問題是大家的程式能力就是有強有弱啦所以可能你們分工出來之後其他人的成果可能會不如預期這樣。那解決方法就是要透過常常開會去追蹤大家的進度,有人遇到困難可能就是要多幫忙吧畢竟成績是大家的。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳少宇"
+    ],
+    "title": "從系統開發中遇到甚麼問題?如何解決? - 吳少宇",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "kldvZP9YT9Oy1kG6t07W"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.326000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "蔡易辰",
+      "question_number": "11",
+      "answer": "定期追蹤的部分跟 SA 一樣。主要還是我在定時程,因為他們有時候不太知道自己在幹嘛。",
+      "question": "如何定期追蹤組員進度? 跟 SA 一樣嗎?遇到甚麼問題? (專題 context)",
+      "source": "訪問及 Deeplink 分享 第二組",
+      "docId": "interview2_progress_tracking_project_sa_comparison"
+    },
+    "content": "根據蔡易辰的經驗\n\n定期追蹤的部分跟 SA 一樣。主要還是我在定時程,因為他們有時候不太知道自己在幹嘛。",
+    "bookmarks": 0,
+    "contributors": [
+      "蔡易辰"
+    ],
+    "title": "如何定期追蹤組員進度? 跟 SA 一樣嗎?遇到甚麼問題? (專題 context) - 蔡易辰",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "l9S5E92mouaec215BaNv"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.722000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "彭文暘",
+      "question_number": "6",
+      "answer": "組內意見不統一,意見不合,但這只是剛開始,到後期大家都有共同目標就還好。",
+      "question": "(到目前為止,)專題遇到的最大問題是甚麼?如何解決?",
+      "source": "彭文暘訪談紀錄",
+      "docId": "interview_pwy_project_biggest_issue"
+    },
+    "content": "根據彭文暘的經驗\n\n組內意見不統一,意見不合,但這只是剛開始,到後期大家都有共同目標就還好。",
+    "bookmarks": 0,
+    "contributors": [
+      "彭文暘"
+    ],
+    "title": "(到目前為止,)專題遇到的最大問題是甚麼?如何解決? - 彭文暘",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "lvTR6QJHXTc15MhP3xTG"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.567000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "彭文暘",
+      "question_number": "1",
+      "answer": "一開始做使用者需求調查時,調查的沒有很完善。所以後面的一些功能、開發部份上面有遇到一些障礙,可能功能不是使用者需要的。使用者故事裡面的情境,要寫的比較完整一點,例如怎樣才能到這一步走來這裡,那邊我們卡比較久一點。還有使用者活動流程圖,每個功能它需要的一個流程,那時也是會有一點卡住花比較久時間在設計。",
+      "question": "從系統分析與設計中遇到什麼問題?如何解決?",
+      "source": "彭文暘訪談紀錄",
+      "docId": "interview_pwy_sys_analysis_design_issues"
+    },
+    "content": "根據彭文暘的經驗\n\n一開始做使用者需求調查時,調查的沒有很完善。所以後面的一些功能、開發部份上面有遇到一些障礙,可能功能不是使用者需要的。使用者故事裡面的情境,要寫的比較完整一點,例如怎樣才能到這一步走來這裡,那邊我們卡比較久一點。還有使用者活動流程圖,每個功能它需要的一個流程,那時也是會有一點卡住花比較久時間在設計。",
+    "bookmarks": 0,
+    "contributors": [
+      "彭文暘"
+    ],
+    "title": "從系統分析與設計中遇到什麼問題?如何解決? - 彭文暘",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "mlpgNBNmr7dLViL6fAh9"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.537000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "朱浩偉",
+      "answer": "製作專題時,盡量安排出一個計畫,要確保小組進度能跟著計劃的進度走,還有盡量把握機會每一個可以寫小專案的機會,以及釐清系統開發對於使用者的價值在製作專題上會更順利。",
+      "question": "對各位的建議是?",
+      "source": "第三組 學長姐訪談",
+      "docId": "interview3_advice_for_us"
+    },
+    "content": "根據朱浩偉的經驗\n\n製作專題時,盡量安排出一個計畫,要確保小組進度能跟著計劃的進度走,還有盡量把握機會每一個可以寫小專案的機會,以及釐清系統開發對於使用者的價值在製作專題上會更順利。",
+    "bookmarks": 0,
+    "contributors": [
+      "朱浩偉"
+    ],
+    "title": "對各位的建議是? - 朱浩偉",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "n30s8myqSu1joUNBTPBL"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.239000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "蔡易辰",
+      "question_number": "8",
+      "answer": "因為會的不夠多,所以要花時間學新系統,然後我之前都想說可以買書來看,現在我現在蠻推薦網路資源的,有問題就直接查。",
+      "question": "(到目前為止,)系統開發中遇到甚麼問題?如何解決? (專題 context)",
+      "source": "訪問及 Deeplink 分享 第二組",
+      "docId": "interview2_sysdev_current_issues_project"
+    },
+    "content": "根據蔡易辰的經驗\n\n因為會的不夠多,所以要花時間學新系統,然後我之前都想說可以買書來看,現在我現在蠻推薦網路資源的,有問題就直接查。",
+    "bookmarks": 0,
+    "contributors": [
+      "蔡易辰"
+    ],
+    "title": "(到目前為止,)系統開發中遇到甚麼問題?如何解決? (專題 context) - 蔡易辰",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "oWYlRI6hEQ5j9z9kISpX"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.448000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "謝承祐",
+      "question_number": "3",
+      "answer": "有些人可能願意做事,但是不會主動去做,所以團隊裡需要一個PM或SA去盯。\n不只是專題進度,前期可能是學習進度,通常專題會用沒學過的工具,前期要趕緊學習,不要等到寒假再學,會來不及。\n小組成員都很忙,要約時間有點困難,分工也不太平均,有些人進度較慢。\n另外提醒,講話的方式很重要,如果意見分歧,覺得自己的論點是對的,那是要「說服」別人,而不是要「否定」組員,講話的藝術也是很重要的!",
+      "question": "目前為止,專題遇到的最大問題是甚麼?如何解決?",
+      "source": "訪問大三、大四學長姐 謝承祐",
+      "docId": "interview_scy_project_biggest_issue"
+    },
+    "content": "根據謝承祐的經驗\n\n有些人可能願意做事,但是不會主動去做,所以團隊裡需要一個PM或SA去盯。\n不只是專題進度,前期可能是學習進度,通常專題會用沒學過的工具,前期要趕緊學習,不要等到寒假再學,會來不及。\n小組成員都很忙,要約時間有點困難,分工也不太平均,有些人進度較慢。\n另外提醒,講話的方式很重要,如果意見分歧,覺得自己的論點是對的,那是要「說服」別人,而不是要「否定」組員,講話的藝術也是很重要的!",
+    "bookmarks": 0,
+    "contributors": [
+      "謝承祐"
+    ],
+    "title": "目前為止,專題遇到的最大問題是甚麼?如何解決? - 謝承祐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "ocUx0PJeQAxdL4k946Ty"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.857000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳建豐",
+      "question_number": "Q9",
+      "answer": "要定期追蹤進度 可以的話1-2個禮拜要開一次會看進度 因為老師3周就要progress update,必須要開會,處理一些大家遇到的問題以及稍微整理目前的文件等等。有遇到問題如果上網找不到一定要找人問,因為可能會卡到其他的人影響進度。",
+      "question": "定期追蹤組員進度嗎?遇到甚麼問題?",
+      "source": "SA專題---學長訪談 第十二組",
+      "docId": "interview_wjf_progress_tracking"
+    },
+    "content": "根據吳建豐的經驗\n\n要定期追蹤進度 可以的話1-2個禮拜要開一次會看進度 因為老師3周就要progress update,必須要開會,處理一些大家遇到的問題以及稍微整理目前的文件等等。有遇到問題如果上網找不到一定要找人問,因為可能會卡到其他的人影響進度。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳建豐"
+    ],
+    "title": "定期追蹤組員進度嗎?遇到甚麼問題? - 吳建豐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "ovsHF9FmKgMhYMRsIS7s"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:51.747000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "董書妤、周佳欣",
+      "question_number": "3.1",
+      "answer": "有使用,但因擔心負擔過重而未建立分支,導致組員間在使用時出現程式碼上的衝突,例如其中一位組員直接上傳本地端資料而沒有更新雲端的資料,導致主要幹道上原先撰寫好的功能被覆蓋掉,得額外花時間進行處理。",
+      "question": "使用 git 嗎?遇到甚麼問題?",
+      "source": "資管二乙第一組 訪談內容",
+      "docId": "interview_dev_git_usage"
+    },
+    "content": "根據董書妤、周佳欣的經驗\n\n有使用,但因擔心負擔過重而未建立分支,導致組員間在使用時出現程式碼上的衝突,例如其中一位組員直接上傳本地端資料而沒有更新雲端的資料,導致主要幹道上原先撰寫好的功能被覆蓋掉,得額外花時間進行處理。",
+    "bookmarks": 0,
+    "contributors": [
+      "董書妤",
+      "周佳欣"
+    ],
+    "title": "使用 git 嗎?遇到甚麼問題? - 董書妤、周佳欣",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "phLbNU5IEeBtd3cjGzH8"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.888000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳建豐",
+      "question_number": "Q10",
+      "answer": "團隊成員可能分佈在不同的地區,時間地點難以調整統一,在開會時間或行程上很容易有分爭,有時候決定好開會或工作時間,卻有一個人無法到場等問題,特別是大學生課表都不太相同,住宿地點又很分散,團隊成員難以聚集。",
+      "question": "到目前為止,專題遇到的最大問題是甚麼?",
+      "source": "SA專題---學長訪談 第十二組",
+      "docId": "interview_wjf_project_biggest_issue"
+    },
+    "content": "根據吳建豐的經驗\n\n團隊成員可能分佈在不同的地區,時間地點難以調整統一,在開會時間或行程上很容易有分爭,有時候決定好開會或工作時間,卻有一個人無法到場等問題,特別是大學生課表都不太相同,住宿地點又很分散,團隊成員難以聚集。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳建豐"
+    ],
+    "title": "到目前為止,專題遇到的最大問題是甚麼? - 吳建豐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "qFCVE7c5b0qYdKXzWmL0"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.204000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "蔡易辰",
+      "question_number": "7",
+      "answer": "第一個是完全不知道要做什麼主題,因為我們只會寫純系統,而且很多東西市面上都有了,好不容易想出一個主題,但又完全不知道要怎麼弄,問來問去還是沒結果,最後是退回來寫純系統,但因為使用的系統跟之前學的不同,所以又花了一些時間摸索。第二個是時間超趕,如果照著專題的時間鐵定來不及,建議可以越早想完題目越早開始。",
+      "question": "(到目前為止,)專題遇到的最大問題是甚麼?如何解決?",
+      "source": "訪問及 Deeplink 分享 第二組",
+      "docId": "interview2_project_biggest_problem"
+    },
+    "content": "根據蔡易辰的經驗\n\n第一個是完全不知道要做什麼主題,因為我們只會寫純系統,而且很多東西市面上都有了,好不容易想出一個主題,但又完全不知道要怎麼弄,問來問去還是沒結果,最後是退回來寫純系統,但因為使用的系統跟之前學的不同,所以又花了一些時間摸索。第二個是時間超趕,如果照著專題的時間鐵定來不及,建議可以越早想完題目越早開始。",
+    "bookmarks": 0,
+    "contributors": [
+      "蔡易辰"
+    ],
+    "title": "(到目前為止,)專題遇到的最大問題是甚麼?如何解決? - 蔡易辰",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "rWLCOSjlr938dgyVvvWE"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.416000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "謝承祐",
+      "question_number": "2.3",
+      "answer": "指定一個人當PM(專案管理),負責任務排程,定期監督進度,所有人一開始要講好,一定要尊重PM的排程,並且每週討論檢討進度。",
+      "question": "如何定期追蹤組員進度?遇到甚麼問題?",
+      "source": "訪問大三、大四學長姐 謝承祐",
+      "docId": "interview_scy_sys_dev_progress_tracking"
+    },
+    "content": "根據謝承祐的經驗\n\n指定一個人當PM(專案管理),負責任務排程,定期監督進度,所有人一開始要講好,一定要尊重PM的排程,並且每週討論檢討進度。",
+    "bookmarks": 0,
+    "contributors": [
+      "謝承祐"
+    ],
+    "title": "如何定期追蹤組員進度?遇到甚麼問題? - 謝承祐",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "sNna818qzNGkZDHPuZbb"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:51.665000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "董書妤、周佳欣",
+      "question_number": "2",
+      "answer": "因組內許多成員都有拖延的習慣,導致整合時間相當匆忙,debug 時間不足,常常都是期限快到的時候才完成。學姐們也有提到,濟聰老師有建議同學們在系統發表前不應再增加新功能,但因為學長姐整合及除錯時間常不足,所以常常都在快要發表時還在新增功能。",
+      "question": "從系統分析與設計課程中遇到甚麼問題?",
+      "source": "資管二乙第一組 訪談內容",
+      "docId": "interview_srsd_issues"
+    },
+    "content": "根據董書妤、周佳欣的經驗\n\n因組內許多成員都有拖延的習慣,導致整合時間相當匆忙,debug 時間不足,常常都是期限快到的時候才完成。學姐們也有提到,濟聰老師有建議同學們在系統發表前不應再增加新功能,但因為學長姐整合及除錯時間常不足,所以常常都在快要發表時還在新增功能。",
+    "bookmarks": 0,
+    "contributors": [
+      "董書妤",
+      "周佳欣"
+    ],
+    "title": "從系統分析與設計課程中遇到甚麼問題? - 董書妤、周佳欣",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "sW8rPErh49OCChxm7egz"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.250000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "辛語柔",
+      "question_number": "6_supplement",
+      "answer": "有些組別在 SA 時就已經換新語言了,但是他們的系統就不會做到很完整的功能,因為真的太忙了。新語言的部分也都是要靠自學,因為大三專題基本上都是沒有要上課的,而且教授也不會跟你說要幹嘛,教授只會給你方向,說這樣 ok 這樣不 ok,然後其他的你都要自己去摸索。",
+      "question": "(補充)所以大家到專題時都會換新語言去嘗試嗎?",
+      "source": "辛語柔訪談紀錄",
+      "docId": "interview_xyr_project_new_language_choice"
+    },
+    "content": "根據辛語柔的經驗\n\n有些組別在 SA 時就已經換新語言了,但是他們的系統就不會做到很完整的功能,因為真的太忙了。新語言的部分也都是要靠自學,因為大三專題基本上都是沒有要上課的,而且教授也不會跟你說要幹嘛,教授只會給你方向,說這樣 ok 這樣不 ok,然後其他的你都要自己去摸索。",
+    "bookmarks": 0,
+    "contributors": [
+      "辛語柔"
+    ],
+    "title": "(補充)所以大家到專題時都會換新語言去嘗試嗎? - 辛語柔",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "tZrywArq3Rs7faY2Q9vH"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:54.105000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "吳少宇",
+      "question_number": "5",
+      "answer": "我們那時候就是後端加資料庫就是用 Firebase 都處理掉,因為 Firebase 蠻方便,你可以直接在前端的部分就寫好它的函式,它會幫你把後端都處理得很好,你就不用 Moskau 煩惱這些東西,而且它的資料庫是 NoSQL 的,比較不用處理關聯式資料庫 Primary Key 然後 Foreign Key,那種關聯在 Firebase 裡面都沒有,它就是不用先設定好比較自由,以我們的大小來說也不會遇到那種讀很久讀不出來的問題,Firebase 很方便,然後前端的話我們那時候有嘗試過用框架像 Vue 或 React 那種,我是蠻建議用那種東西的,但是我們那時候大家有點學不來,因為我們也不太常就是不太有接觸過 JavaScript,所以像 Vue 或 React 這種框架又是更進階,你應該要比較熟悉 JavaScript 之後再去使用的東西,所以我們最後前端是用原生的 JavaScript 語法去做開發的,然後搭配基本的 HTML CSS。\nJavaScript 的優點是它蠻好懂的,但是缺點就是一旦累積很多程式碼之後,它看起來會很亂很難維護,當你要修改某項功能的時候會很花時間,就是會很難維護,所以能學的話推薦還是用 React 或是 Vue 去做,早一點接觸也比較好,因為專題也會用到。",
+      "question": "使用哪個語言、資料庫開發?為何?優缺點是?",
+      "source": "吳少宇訪談紀錄",
+      "docId": "interview_wsy_q5"
+    },
+    "content": "根據吳少宇的經驗\n\n我們那時候就是後端加資料庫就是用 Firebase 都處理掉,因為 Firebase 蠻方便,你可以直接在前端的部分就寫好它的函式,它會幫你把後端都處理得很好,你就不用 Moskau 煩惱這些東西,而且它的資料庫是 NoSQL 的,比較不用處理關聯式資料庫 Primary Key 然後 Foreign Key,那種關聯在 Firebase 裡面都沒有,它就是不用先設定好比較自由,以我們的大小來說也不會遇到那種讀很久讀不出來的問題,Firebase 很方便,然後前端的話我們那時候有嘗試過用框架像 Vue 或 React 那種,我是蠻建議用那種東西的,但是我們那時候大家有點學不來,因為我們也不太常就是不太有接觸過 JavaScript,所以像 Vue 或 React 這種框架又是更進階,你應該要比較熟悉 JavaScript 之後再去使用的東西,所以我們最後前端是用原生的 JavaScript 語法去做開發的,然後搭配基本的 HTML CSS。\nJavaScript 的優點是它蠻好懂的,但是缺點就是一旦累積很多程式碼之後,它看起來會很亂很難維護,當你要修改某項功能的時候會很花時間,就是會很難維護,所以能學的話推薦還是用 React 或是 Vue 去做,早一點接觸也比較好,因為專題也會用到。",
+    "bookmarks": 0,
+    "contributors": [
+      "吳少宇"
+    ],
+    "title": "使用哪個語言、資料庫開發?為何?優缺點是? - 吳少宇",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "taKSf3CqjyEJTZOlGfaM"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.218000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "辛語柔",
+      "question_number": "6",
+      "answer": "我自己是覺得你專題一定要學新語言,我們這組是學 React Native 然後資料庫是用 MongoDB,優點是 React Native 還蠻好上手的,我看其他組別也都是學 React 和 React Native,他們其實是一樣的,然後缺點是 MongoDB 在接前後端時要研究一下,我目前知道我們組還有其他組別在用的資料庫有 MongoDB 和 Firebase, Firebase 的上手程度會比 MongoDB 還要來的簡單一點,所以你們要選資料庫,這兩個是 NoSQL,MySQL 我們已經用過了,所以如果你們要選NoSQL 的話可以選 Firebase 或 MongoDB。",
+      "question": "使用哪個語言以及哪種資料庫開發?遇到甚麼問題?",
+      "source": "辛語柔訪談紀錄",
+      "docId": "interview_xyr_project_tech_stack"
+    },
+    "content": "根據辛語柔的經驗\n\n我自己是覺得你專題一定要學新語言,我們這組是學 React Native 然後資料庫是用 MongoDB,優點是 React Native 還蠻好上手的,我看其他組別也都是學 React 和 React Native,他們其實是一樣的,然後缺點是 MongoDB 在接前後端時要研究一下,我目前知道我們組還有其他組別在用的資料庫有 MongoDB 和 Firebase, Firebase 的上手程度會比 MongoDB 還要來的簡單一點,所以你們要選資料庫,這兩個是 NoSQL,MySQL 我們已經用過了,所以如果你們要選NoSQL 的話可以選 Firebase 或 MongoDB。",
+    "bookmarks": 0,
+    "contributors": [
+      "辛語柔"
+    ],
+    "title": "使用哪個語言以及哪種資料庫開發?遇到甚麼問題? - 辛語柔",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "tq6yYCKU2by9EGNhIyMr"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.159000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "辛語柔",
+      "question_number": "4",
+      "answer": "嗯...因為 SA 每周都有老師說要做的事,反正都是要討論嘛,我們每周都會找個時段來討論,討論下一周要做的事,討論之後的進度,因為大家都是同班的,所以時間也蠻好約的。",
+      "question": "定期追蹤組員進度嗎?遇到甚麼問題?",
+      "source": "辛語柔訪談紀錄",
+      "docId": "interview_xyr_progress_tracking"
+    },
+    "content": "根據辛語柔的經驗\n\n嗯...因為 SA 每周都有老師說要做的事,反正都是要討論嘛,我們每周都會找個時段來討論,討論下一周要做的事,討論之後的進度,因為大家都是同班的,所以時間也蠻好約的。",
+    "bookmarks": 0,
+    "contributors": [
+      "辛語柔"
+    ],
+    "title": "定期追蹤組員進度嗎?遇到甚麼問題? - 辛語柔",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "uAz5l9JiM67yAnEelTGU"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.880000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "林芯緹、蘇彥碩",
+      "question_number": "3.ii",
+      "answer": "學姊組:\n技術組合: 前端框架: React, 後端服務: Firebase, 使用Firestore 作為資料庫儲存部分。\n優點: 1. 無需維護後端伺服器: Firebase 提供了全方位的後端服務，包括資料庫、身份驗證、雲函數等。 2. 不受硬體限制: 無需擔心伺服器硬體配置或伺服器負載問題，Firebase 的服務由 Google 提供，可靠性高。 3. 未來無論求職或考研都很受用，完整度不足並非重點而是要清楚自己在寫什麼就足夠了，在學校的東西已經不太夠用了，不要侷限在現有的知識裡面。\n缺點: 1. 學習門檻高: 對於新手來說，React 和 Firebase 的學習曲線可能較高，需要一定時間去掌握相關知識和語法。 2. 專案完整性: 在僅有一學期的SA 要學習新語法再加上開發會導致專案完整度的問題。\n學長組: 已用熟悉的技術\n技術組合: 前端框架: HTML 等 (手刻前端+用框架), 後端服務: php, 資料庫: MySQL。",
+      "question": "使用哪個語言、資料庫開發?為何?優缺點是?",
+      "source": "SA訪問 0306",
+      "docId": "interview_sa_0306_lts_tech_stack_dev"
+    },
+    "content": "根據林芯緹、蘇彥碩的經驗\n\n學姊組:\n技術組合: 前端框架: React, 後端服務: Firebase, 使用Firestore 作為資料庫儲存部分。\n優點: 1. 無需維護後端伺服器: Firebase 提供了全方位的後端服務，包括資料庫、身份驗證、雲函數等。 2. 不受硬體限制: 無需擔心伺服器硬體配置或伺服器負載問題，Firebase 的服務由 Google 提供，可靠性高。 3. 未來無論求職或考研都很受用，完整度不足並非重點而是要清楚自己在寫什麼就足夠了，在學校的東西已經不太夠用了，不要侷限在現有的知識裡面。\n缺點: 1. 學習門檻高: 對於新手來說，React 和 Firebase 的學習曲線可能較高，需要一定時間去掌握相關知識和語法。 2. 專案完整性: 在僅有一學期的SA 要學習新語法再加上開發會導致專案完整度的問題。\n學長組: 已用熟悉的技術\n技術組合: 前端框架: HTML 等 (手刻前端+用框架), 後端服務: php, 資料庫: MySQL。",
+    "bookmarks": 0,
+    "contributors": [
+      "林芯緹",
+      "蘇彥碩"
+    ],
+    "title": "使用哪個語言、資料庫開發?為何?優缺點是? - 林芯緹、蘇彥碩",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "wlckfr5dCgOav4vjgUPl"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:53.129000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "辛語柔",
+      "question_number": "3",
+      "answer": "我們這組是用 PHP 和 CSS,資料庫是用 MySQL,都是學過的東西,所以沒遇到什麼問題。",
+      "question": "使用哪個語言、資料庫開發?遇到甚麼問題?",
+      "source": "辛語柔訪談紀錄",
+      "docId": "interview_xyr_tech_stack_dev"
+    },
+    "content": "根據辛語柔的經驗\n\n我們這組是用 PHP 和 CSS,資料庫是用 MySQL,都是學過的東西,所以沒遇到什麼問題。",
+    "bookmarks": 0,
+    "contributors": [
+      "辛語柔"
+    ],
+    "title": "使用哪個語言、資料庫開發?遇到甚麼問題? - 辛語柔",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "yzBUdq2xu1wR73dAMKdT"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.267000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "蔡易辰",
+      "question_number": "9",
+      "answer": "一樣有使用 git。如同剛剛前面說的,到現在為止都只有我在用!因為他們很怕出錯或衝突。",
+      "question": "使用 git 嗎?遇到甚麼問題? (專題 context)",
+      "source": "訪問及 Deeplink 分享 第二組",
+      "docId": "interview2_git_usage_project"
+    },
+    "content": "根據蔡易辰的經驗\n\n一樣有使用 git。如同剛剛前面說的,到現在為止都只有我在用!因為他們很怕出錯或衝突。",
+    "bookmarks": 0,
+    "contributors": [
+      "蔡易辰"
+    ],
+    "title": "使用 git 嗎?遇到甚麼問題? (專題 context) - 蔡易辰",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "z8MmFIRgDPsouQEBbgyA"
+  },
+  {
+    "comments_count": 0,
+    "created_at": "2026-02-24T01:05:52.910000+00:00",
+    "likes": 0,
+    "originalMetadata": {
+      "interviewee": "林芯緹、蘇彥碩",
+      "question_number": "3.iii",
+      "answer": "每個禮拜開會且建議在 Teams 上開會，一定要做會議記錄且直接放在 Teams (依日期較容易找)。\n與組員要有遇到問題馬上說的共識，希望不要遇到Bug就罷工到下一次開會才提出來，要在來得及的時候馬上說。",
+      "question": "如何定期追蹤組員進度?遇到甚麼問題?",
+      "source": "SA訪問 0306",
+      "docId": "interview_sa_0306_lts_progress_tracking"
+    },
+    "content": "根據林芯緹、蘇彥碩的經驗\n\n每個禮拜開會且建議在 Teams 上開會，一定要做會議記錄且直接放在 Teams (依日期較容易找)。\n與組員要有遇到問題馬上說的共識，希望不要遇到Bug就罷工到下一次開會才提出來，要在來得及的時候馬上說。",
+    "bookmarks": 0,
+    "contributors": [
+      "林芯緹",
+      "蘇彥碩"
+    ],
+    "title": "如何定期追蹤組員進度?遇到甚麼問題? - 林芯緹、蘇彥碩",
+    "author": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/145403152?v=4",
+      "id": "VR3bKAR9T6VmWSj6xEt6WjnOTT93",
+      "name": "dis.awezing80"
+    },
+    "id": "zESn7RU8B2DxYaefVkgm"
+  }
+]

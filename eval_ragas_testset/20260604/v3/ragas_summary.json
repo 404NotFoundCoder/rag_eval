@@ -1,0 +1,14 @@
+{
+  "run_time": "2026-06-08 09:03:27",
+  "target_run_dir": "eval_ragas_testset\\20260604\\v3",
+  "input_csv": "eval_ragas_testset\\20260604\\v3\\ragas_eval_with_response.csv",
+  "question_count": 50,
+  "average_scores": {
+    "faithfulness": 0.8750043937543937,
+    "context_precision": 0.9899999999601667,
+    "context_recall": 0.9076666666666665,
+    "answer_relevancy": 0.8105827570329888
+  },
+  "output_scores_csv": "eval_ragas_testset\\20260604\\v3\\ragas_scores.csv",
+  "output_summary_md": "eval_ragas_testset\\20260604\\v3\\ragas_summary.md"
+}
